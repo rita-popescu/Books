@@ -1,0 +1,10 @@
+<BOOK>
+    <AUTHORS>
+        <AUTHOR>Kathy Sierra</AUTHOR>
+        <AUTHOR>Bert Bates</AUTHOR>
+    </AUTHORS>
+    <TITLE>Head First Java2</TITLE>
+    <ISBN>12345678912</ISBN>
+    <CATEGORY>Self-Help</CATEGORY>
+    <PRICE>2313</PRICE>
+</BOOK>

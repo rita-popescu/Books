@@ -1,0 +1,9 @@
+<BOOK>
+    <AUTHORS>
+        <AUTHOR>Joshua Bloch</AUTHOR>
+    </AUTHORS>
+    <TITLE>Effective Java2</TITLE>
+    <ISBN>12345678</ISBN>
+    <CATEGORY>Tutorial</CATEGORY>
+    <PRICE>2310</PRICE>
+</BOOK>

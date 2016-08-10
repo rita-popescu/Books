@@ -1,0 +1,19 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="BOOK">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="AUTHORS" maxOccurs="1" minOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element type="xs:string" name="AUTHOR" maxOccurs="unbounded" minOccurs="1"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element type="xs:string" name="TITLE" maxOccurs="1" minOccurs="1"/>
+                <xs:element type="xs:string" name="ISBN" maxOccurs="1" minOccurs="1"/>
+                <xs:element type="xs:string" name="CATEGORY" maxOccurs="1" minOccurs="1"/>
+                <xs:element type="xs:int" name="PRICE" maxOccurs="1" minOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

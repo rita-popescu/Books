@@ -1,0 +1,9 @@
+<BOOK>
+    <AUTHORS>
+        <AUTHOR> Robert C. Martin </AUTHOR>
+    </AUTHORS>
+    <TITLE> 4 hours cook </TITLE>
+    <ISBN> 123 </ISBN>
+    <CATEGORIE> Self-Help </CATEGORIE>
+    <PRICE> 234 </PRICE>
+</BOOK>

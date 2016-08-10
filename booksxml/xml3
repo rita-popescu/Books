@@ -1,0 +1,9 @@
+<BOOK>
+    <AUTHORS>
+        <AUTHOR>Robert C. Martin</AUTHOR>
+    </AUTHORS>
+    <TITLE>agile software development3</TITLE>
+    <ISBN>12345</ISBN>
+    <CATEGORY>Self-Help</CATEGORY>
+    <PRICE>236</PRICE>
+</BOOK>
