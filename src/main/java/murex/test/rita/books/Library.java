@@ -1,6 +1,8 @@
 package murex.test.rita.books;
 
 import murex.test.rita.books.model.BOOK;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -29,9 +31,10 @@ public class Library {
     private JAXBContext c;
     private Unmarshaller unmarshaller;
     private static int cashedBooksNumber;
+    private static final Logger logger = LoggerFactory.getLogger(Library.class);
 
-    public Library() throws JAXBException {
-        rootDir = new File("C:\\Users\\rcpopescu\\IdeaProjects\\Books\\booksxml");
+    public Library(File rootDir) throws JAXBException {
+        this.rootDir = rootDir;
         c = JAXBContext.newInstance(BOOK.class);
         unmarshaller = c.createUnmarshaller();
         hm = new HashMap<String, String>();
@@ -69,14 +72,15 @@ public class Library {
         File[] xmlFiles = rootDir.listFiles();
         if (hm.containsKey(isbn)) {
             bookTitle = hm.get(isbn);
-            System.out.println("Got from cache.");
+            logger.info("Got from cache.");
+
         } else {
                 for (int i = 0; i < xmlFiles.length; i++) {
                     BOOK book = (BOOK) unmarshaller.unmarshal(new File(String.valueOf(xmlFiles[i])));
                     if (book.getISBN().equals(isbn)) {
                             bookTitle = book.getTITLE();
                             hm.put(isbn, bookTitle);
-                            System.out.println("Got from disk.");
+                            logger.info("Got from cache.");
                             break;
                     }
 

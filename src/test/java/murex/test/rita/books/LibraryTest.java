@@ -12,10 +12,10 @@ import java.util.List;
  */
 public class LibraryTest {
     Library library;
-
+    private File rootDir = new File("C:\\Users\\rcpopescu\\IdeaProjects\\Books\\booksxml");
     @Before
     public void setUp() throws Exception {
-        library = new Library();
+        library = new Library(rootDir);
     }
 
     @Test
@@ -32,6 +32,8 @@ public class LibraryTest {
     @Test
     public void testGetTitleByIsbn() throws Exception {
         String expected = "agile software development4";
+        Assert.assertEquals(expected, library.getTitleByISBN("123456"));
+        Assert.assertEquals(expected, library.getTitleByISBN("123456"));
         Assert.assertEquals(expected, library.getTitleByISBN("123456"));
         Assert.assertEquals(expected, library.getTitleByISBN("123456"));
     }
