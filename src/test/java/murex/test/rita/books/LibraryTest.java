@@ -1,9 +1,11 @@
 package murex.test.rita.books;
 
+import dbr.DiskBookRepo;
 import org.junit.*;
 import org.junit.Test;
 
 import java.io.File;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -12,29 +14,57 @@ import java.util.List;
  */
 public class LibraryTest {
     Library library;
-    private File rootDir = new File("C:\\Users\\rcpopescu\\IdeaProjects\\Books\\booksxml");
+    //private File rootDir = new File("C:\\Users\\rcpopescu\\IdeaProjects\\Books\\booksxml");
+    private List<Book> booksRepo = new ArrayList<Book>();
+    ListMaker lm = new ListMaker();
     @Before
     public void setUp() throws Exception {
-        library = new Library(rootDir);
+
+        booksRepo = lm.createBookList();
+        library = new Library(booksRepo);
+
     }
 
     @Test
-    public void testGetTitlesOfGivenAuthor() throws Exception {
-        List<String> expected = Arrays.asList("Effective Java1", "Effective Java2", "Effective Java3");
-        Assert.assertEquals(expected, library.getTitlesOfGivenAuthor("Joshua Bloch"));
+    public void testGetBooksOfGivenAuthor() throws Exception {
+        List<Book> expected = new ArrayList<Book>();
+        booksRepo = new ArrayList<Book>();
+        Book b1 = new Book(Collections.asList("Joshua Bloch"), "Effective Java1", "1234567", "Self-Help");
+        Book b2 = new Book(Collections.asList("Joshua Bloch"), "Effective Java2", "12345678", "Tutorial");
+        Book b3 = new Book(Collections.asList("Joshua Bloch"), "Effective Java3", "123456789", "Tutorial");
+        expected.add(b1);
+        expected.add(b2);
+        expected.add(b3);
+        Assert.assertEquals(expected, library.getBooksOfGivenAuthor("Joshua Bloch"));
+
 
     }
+
     @Test
-     public void testGetTitlesFromCategory() throws Exception {
-        List<String> expected = Arrays.asList("agile software development1", "agile software development2", "agile software development3", "Effective Java1", "Head First Java2");
-        Assert.assertEquals(expected, library.getTitlesFromCategory("Self-Help"));
+     public void testGetBooksFromCategory() throws Exception {
+
+        List<Book> expected = new ArrayList<Book>();
+        Book b1 = new Book(Collections.asList("Joshua Bloch"), "Effective Java1", "1234567", "Self-Help");
+        Book b2 = new Book(Collections.asList("Robert C. Martin"), "agile software development1", "123", "Self-Help");
+        Book b3 = new Book(Collections.asList("Robert C. Martin"), "agile software development2", "1234", "Self-Help");
+        Book b4 = new Book(Collections.asList("Robert C. Martin"), "agile software development3", "12345", "Self-Help");
+        Book b5 = new Book(Collections.asList("Kathy Sierra","Bert Bates"), "Head First Java2", "12345678912", "Self-Help");
+        expected.add(b1);
+        expected.add(b2);
+        expected.add(b3);
+        expected.add(b4);
+        expected.add(b5);
+        Assert.assertEquals(expected,library.getBooksFromCategory("Self-Help"));
     }
+
     @Test
-    public void testGetTitleByIsbn() throws Exception {
-        String expected = "agile software development4";
-        Assert.assertEquals(expected, library.getTitleByISBN("123456"));
-        Assert.assertEquals(expected, library.getTitleByISBN("123456"));
-        Assert.assertEquals(expected, library.getTitleByISBN("123456"));
-        Assert.assertEquals(expected, library.getTitleByISBN("123456"));
+    public void testGetBookByIsbn() {
+
+        Book expectedBook = new Book(Collections.asList("Robert C. Martin"), "agile software development1", "123", "Self-Help");
+        Assert.assertEquals(expectedBook, library.getBookByISBN("123"));
+        Assert.assertEquals(expectedBook, library.getBookByISBN("123"));
+        Assert.assertEquals(expectedBook, library.getBookByISBN("123"));
+        Assert.assertEquals(expectedBook, library.getBookByISBN("123"));
     }
+
 }
