@@ -10,10 +10,10 @@ import java.util.Map;
  */
 public class LimitedCache extends BooksCache {
 
-    public static <K, V> Map<K, V> createLeastRecentlyUsedMap(final int maxEntries) {
-        return new LinkedHashMap<K, V>(maxEntries*10/7, 0.7f, true) {
+    public static <String, Book> Map<String, Book> createLeastRecentlyUsedMap(final int maxEntries) {
+        return new LinkedHashMap<String, Book>(maxEntries*10/7, 0.7f, true) {
             @Override
-            protected boolean removeEldestEntry(Map.Entry<K, V> eldest) {
+            protected boolean removeEldestEntry(Map.Entry<String, Book> eldest) {
                 return size() > maxEntries;
             }
         };
