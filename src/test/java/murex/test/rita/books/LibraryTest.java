@@ -1,10 +1,17 @@
 package murex.test.rita.books;
 
+import dbr.ClassBinding;
 import dbr.DiskBookRepo;
+import murex.test.rita.books.model.BOOK;
 import org.junit.*;
 import org.junit.Test;
 
+import javax.inject.Inject;
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Marshaller;
 import java.io.File;
+import java.io.StringWriter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -13,6 +20,22 @@ import java.util.List;
  * Created by RCPopescu on 8/10/2016.
  */
 public class LibraryTest {
+
+    @Inject
+    @ClassBinding(value = BOOK.class)
+    private JAXBContext context;
+
+
+    @Test
+    public void x() throws JAXBException {
+        Marshaller marshaller = context.createMarshaller();
+        BOOK b = new BOOK();
+        b.setTITLE("Jurnalul pantofului rosu.");
+        StringWriter s = new StringWriter(hashCode());
+        marshaller.marshal(b, s);
+        System.out.println(s);
+    }
+
     Library library;
     //private File rootDir = new File("C:\\Users\\rcpopescu\\IdeaProjects\\Books\\booksxml");
     private List<Book> booksRepo = new ArrayList<Book>();

@@ -63,3 +63,1083 @@ java.lang.ArithmeticException: / by zero
 2016-08-11 14:23:14 INFO  Library:75 - Got from cache.
 2016-08-11 14:23:14 INFO  Library:75 - Got from cache.
 2016-08-11 14:23:14 INFO  Library:75 - Got from cache.
+2016-08-23 14:32:50 DEBUG logging:35 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-08-23 14:32:50 INFO  Version:152 - WELD-000900: 2.2.9 (Final)
+2016-08-23 14:32:50 DEBUG Bootstrap:40 - WELD-000124: Using 4 threads for bootstrap
+2016-08-23 14:32:50 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%ApplicationContext
+2016-08-23 14:32:50 DEBUG Reflection:72 - WELD-000601: interface javax.inject.Singleton is missing @Target. Weld will use this annotation, however this may make the application unportable.
+2016-08-23 14:32:50 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%SingletonContext
+2016-08-23 14:32:50 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundSessionContext
+2016-08-23 14:32:50 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundConversationContext
+2016-08-23 14:32:50 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundRequestContext
+2016-08-23 14:32:50 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%RequestContext
+2016-08-23 14:32:50 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%DependentContext
+2016-08-23 14:32:50 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%EjbRequestContext
+2016-08-23 14:32:50 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 14:32:50 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 14:32:50 DEBUG Bootstrap:507 - WELD-000106: Bean: Extension [class org.jboss.weld.environment.se.WeldSEBeanRegistrant] with qualifiers [@Default]; jar:file:/C:/Users/rcpopescu/.m2/repository/org/jboss/weld/se/weld-se/2.2.9.Final/weld-se-2.2.9.Final.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@1
+2016-08-23 14:32:50 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 14:32:50 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 14:32:50 DEBUG Bootstrap:223 - WELD-000103: Enabled alternatives for Weld BeanManager for 6b48a8d6-dabc-4750-ad2d-86aeba1848ce.jar [bean count=3]: (empty collection)
+2016-08-23 14:32:50 DEBUG Bootstrap:224 - WELD-000104: Enabled decorator types for Weld BeanManager for 6b48a8d6-dabc-4750-ad2d-86aeba1848ce.jar [bean count=3]: (empty collection)
+2016-08-23 14:32:50 DEBUG Bootstrap:225 - WELD-000105: Enabled interceptor types for Weld BeanManager for 6b48a8d6-dabc-4750-ad2d-86aeba1848ce.jar [bean count=3]: (empty collection)
+2016-08-23 14:32:51 DEBUG Bootstrap:108 - WELD-000108: Decorator: Decorator [class org.jboss.weld.environment.se.threading.RunnableDecorator] decorates [Runnable] with delegate type [Runnable] and delegate qualifiers [@Default]
+2016-08-23 14:32:51 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%6b48a8d6-dabc-4750-ad2d-86aeba1848ce.jar%Conversation
+2016-08-23 14:32:51 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%6b48a8d6-dabc-4750-ad2d-86aeba1848ce.jar%RequestContext
+2016-08-23 14:32:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [List<String>] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgs()]
+2016-08-23 14:32:51 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%6b48a8d6-dabc-4750-ad2d-86aeba1848ce.jar%SingletonContext
+2016-08-23 14:32:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.EventMetadata] with qualifiers [@Default]
+2016-08-23 14:32:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.InjectionPoint] with qualifiers [@Default]
+2016-08-23 14:32:51 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%6b48a8d6-dabc-4750-ad2d-86aeba1848ce.jar%BoundConversationContext
+2016-08-23 14:32:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class murex.test.rita.books.TestDependencyInjection] with qualifiers [@Any @Default]
+2016-08-23 14:32:51 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%6b48a8d6-dabc-4750-ad2d-86aeba1848ce.jar%BoundSessionContext
+2016-08-23 14:32:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Interceptor] with qualifiers [@Default]
+2016-08-23 14:32:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Decorator] with qualifiers [@Default]
+2016-08-23 14:32:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.event.Event] with qualifiers [@Default]
+2016-08-23 14:32:51 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%6b48a8d6-dabc-4750-ad2d-86aeba1848ce.jar%DependentContext
+2016-08-23 14:32:51 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%6b48a8d6-dabc-4750-ad2d-86aeba1848ce.jar%ApplicationContext
+2016-08-23 14:32:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Intercepted]
+2016-08-23 14:32:51 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%6b48a8d6-dabc-4750-ad2d-86aeba1848ce.jar%EjbRequestContext
+2016-08-23 14:32:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.transaction.UserTransaction] with qualifiers [@Default]
+2016-08-23 14:32:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [java.security.Principal] with qualifiers [@Default]
+2016-08-23 14:32:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.WeldContainer] with qualifiers [@Any @Default]
+2016-08-23 14:32:51 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%6b48a8d6-dabc-4750-ad2d-86aeba1848ce.jar%BoundRequestContext
+2016-08-23 14:32:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Default]
+2016-08-23 14:32:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.ParametersFactory] with qualifiers [@Any @Default]
+2016-08-23 14:32:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.Instance] with qualifiers [@Default]
+2016-08-23 14:32:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.InstanceManager] with qualifiers [@Any @Default]
+2016-08-23 14:32:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [String[]] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgsAsArray()]
+2016-08-23 14:32:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Decorated]
+2016-08-23 14:32:51 DEBUG Bootstrap:433 - WELD-000100: Weld initialized. Validating beans
+2016-08-23 14:33:35 DEBUG logging:35 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-08-23 14:33:35 INFO  Version:152 - WELD-000900: 2.2.9 (Final)
+2016-08-23 14:33:35 DEBUG Bootstrap:40 - WELD-000124: Using 4 threads for bootstrap
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%ApplicationContext
+2016-08-23 14:33:35 DEBUG Reflection:72 - WELD-000601: interface javax.inject.Singleton is missing @Target. Weld will use this annotation, however this may make the application unportable.
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%SingletonContext
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundSessionContext
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundConversationContext
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundRequestContext
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%RequestContext
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%DependentContext
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%EjbRequestContext
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: Extension [class org.jboss.weld.environment.se.WeldSEBeanRegistrant] with qualifiers [@Default]; jar:file:/C:/Users/rcpopescu/.m2/repository/org/jboss/weld/se/weld-se/2.2.9.Final/weld-se-2.2.9.Final.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@1
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 14:33:35 DEBUG Bootstrap:223 - WELD-000103: Enabled alternatives for Weld BeanManager for 762cfcfe-4cde-49bf-b099-58f061f61d41.jar [bean count=3]: (empty collection)
+2016-08-23 14:33:35 DEBUG Bootstrap:224 - WELD-000104: Enabled decorator types for Weld BeanManager for 762cfcfe-4cde-49bf-b099-58f061f61d41.jar [bean count=3]: (empty collection)
+2016-08-23 14:33:35 DEBUG Bootstrap:225 - WELD-000105: Enabled interceptor types for Weld BeanManager for 762cfcfe-4cde-49bf-b099-58f061f61d41.jar [bean count=3]: (empty collection)
+2016-08-23 14:33:35 DEBUG Bootstrap:108 - WELD-000108: Decorator: Decorator [class org.jboss.weld.environment.se.threading.RunnableDecorator] decorates [Runnable] with delegate type [Runnable] and delegate qualifiers [@Default]
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%762cfcfe-4cde-49bf-b099-58f061f61d41.jar%BoundSessionContext
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.InjectionPoint] with qualifiers [@Default]
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [java.security.Principal] with qualifiers [@Default]
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Default]
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.WeldContainer] with qualifiers [@Any @Default]
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%762cfcfe-4cde-49bf-b099-58f061f61d41.jar%ApplicationContext
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Intercepted]
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.EventMetadata] with qualifiers [@Default]
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.transaction.UserTransaction] with qualifiers [@Default]
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.InstanceManager] with qualifiers [@Any @Default]
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%762cfcfe-4cde-49bf-b099-58f061f61d41.jar%SingletonContext
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%762cfcfe-4cde-49bf-b099-58f061f61d41.jar%RequestContext
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Decorator] with qualifiers [@Default]
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%762cfcfe-4cde-49bf-b099-58f061f61d41.jar%Conversation
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [String[]] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgsAsArray()]
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.Instance] with qualifiers [@Default]
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%762cfcfe-4cde-49bf-b099-58f061f61d41.jar%EjbRequestContext
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%762cfcfe-4cde-49bf-b099-58f061f61d41.jar%BoundRequestContext
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class dbr.JAXBContextProducer] with qualifiers [@Any @Default]
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [JAXBContext] with qualifiers [@Any @Default] declared as [[BackedAnnotatedMethod] @Produces public dbr.JAXBContextProducer.produceJAXBContext(InjectionPoint)]
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class murex.test.rita.books.TestDependencyInjection] with qualifiers [@Any @Default]
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.ParametersFactory] with qualifiers [@Any @Default]
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%762cfcfe-4cde-49bf-b099-58f061f61d41.jar%DependentContext
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%762cfcfe-4cde-49bf-b099-58f061f61d41.jar%BoundConversationContext
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Decorated]
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [List<String>] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgs()]
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Interceptor] with qualifiers [@Default]
+2016-08-23 14:33:35 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.event.Event] with qualifiers [@Default]
+2016-08-23 14:33:35 DEBUG Bootstrap:433 - WELD-000100: Weld initialized. Validating beans
+2016-08-23 14:34:03 DEBUG logging:35 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-08-23 14:34:03 INFO  Version:152 - WELD-000900: 2.2.9 (Final)
+2016-08-23 14:34:03 DEBUG Bootstrap:40 - WELD-000124: Using 4 threads for bootstrap
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%ApplicationContext
+2016-08-23 14:34:03 DEBUG Reflection:72 - WELD-000601: interface javax.inject.Singleton is missing @Target. Weld will use this annotation, however this may make the application unportable.
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%SingletonContext
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundSessionContext
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundConversationContext
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundRequestContext
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%RequestContext
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%DependentContext
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%EjbRequestContext
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: Extension [class org.jboss.weld.environment.se.WeldSEBeanRegistrant] with qualifiers [@Default]; jar:file:/C:/Users/rcpopescu/.m2/repository/org/jboss/weld/se/weld-se/2.2.9.Final/weld-se-2.2.9.Final.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@1
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 14:34:03 DEBUG Bootstrap:223 - WELD-000103: Enabled alternatives for Weld BeanManager for 7482a955-42a4-4337-bd5d-71f1bda6d1c3.jar [bean count=3]: (empty collection)
+2016-08-23 14:34:03 DEBUG Bootstrap:224 - WELD-000104: Enabled decorator types for Weld BeanManager for 7482a955-42a4-4337-bd5d-71f1bda6d1c3.jar [bean count=3]: (empty collection)
+2016-08-23 14:34:03 DEBUG Bootstrap:225 - WELD-000105: Enabled interceptor types for Weld BeanManager for 7482a955-42a4-4337-bd5d-71f1bda6d1c3.jar [bean count=3]: (empty collection)
+2016-08-23 14:34:03 DEBUG Bootstrap:108 - WELD-000108: Decorator: Decorator [class org.jboss.weld.environment.se.threading.RunnableDecorator] decorates [Runnable] with delegate type [Runnable] and delegate qualifiers [@Default]
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.WeldContainer] with qualifiers [@Any @Default]
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%7482a955-42a4-4337-bd5d-71f1bda6d1c3.jar%DependentContext
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%7482a955-42a4-4337-bd5d-71f1bda6d1c3.jar%SingletonContext
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.EventMetadata] with qualifiers [@Default]
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Interceptor] with qualifiers [@Default]
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%7482a955-42a4-4337-bd5d-71f1bda6d1c3.jar%BoundSessionContext
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [java.security.Principal] with qualifiers [@Default]
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Decorated]
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.InjectionPoint] with qualifiers [@Default]
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%7482a955-42a4-4337-bd5d-71f1bda6d1c3.jar%EjbRequestContext
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.InstanceManager] with qualifiers [@Any @Default]
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class dbr.JAXBContextProducer] with qualifiers [@Any @Default]
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [List<String>] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgs()]
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%7482a955-42a4-4337-bd5d-71f1bda6d1c3.jar%Conversation
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.event.Event] with qualifiers [@Default]
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.Instance] with qualifiers [@Default]
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Decorator] with qualifiers [@Default]
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%7482a955-42a4-4337-bd5d-71f1bda6d1c3.jar%ApplicationContext
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class murex.test.rita.books.TestDependencyInjection] with qualifiers [@Any @Default]
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%7482a955-42a4-4337-bd5d-71f1bda6d1c3.jar%BoundRequestContext
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.ParametersFactory] with qualifiers [@Any @Default]
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%7482a955-42a4-4337-bd5d-71f1bda6d1c3.jar%BoundConversationContext
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%7482a955-42a4-4337-bd5d-71f1bda6d1c3.jar%RequestContext
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Default]
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Intercepted]
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.transaction.UserTransaction] with qualifiers [@Default]
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [JAXBContext] with qualifiers [@Any @Default] declared as [[BackedAnnotatedMethod] @Produces public dbr.JAXBContextProducer.produceJAXBContext(InjectionPoint)]
+2016-08-23 14:34:03 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [String[]] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgsAsArray()]
+2016-08-23 14:34:04 DEBUG Bootstrap:433 - WELD-000100: Weld initialized. Validating beans
+2016-08-23 14:36:51 DEBUG logging:35 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-08-23 14:36:51 INFO  Version:152 - WELD-000900: 2.2.9 (Final)
+2016-08-23 14:36:52 DEBUG Bootstrap:40 - WELD-000124: Using 4 threads for bootstrap
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%ApplicationContext
+2016-08-23 14:36:52 DEBUG Reflection:72 - WELD-000601: interface javax.inject.Singleton is missing @Target. Weld will use this annotation, however this may make the application unportable.
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%SingletonContext
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundSessionContext
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundConversationContext
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundRequestContext
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%RequestContext
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%DependentContext
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%EjbRequestContext
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: Extension [class org.jboss.weld.environment.se.WeldSEBeanRegistrant] with qualifiers [@Default]; jar:file:/C:/Users/rcpopescu/.m2/repository/org/jboss/weld/se/weld-se/2.2.9.Final/weld-se-2.2.9.Final.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@1
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 14:36:52 DEBUG Bootstrap:223 - WELD-000103: Enabled alternatives for Weld BeanManager for ef325853-f7f2-47d7-8b1b-5d38a22383e9.jar [bean count=3]: (empty collection)
+2016-08-23 14:36:52 DEBUG Bootstrap:224 - WELD-000104: Enabled decorator types for Weld BeanManager for ef325853-f7f2-47d7-8b1b-5d38a22383e9.jar [bean count=3]: (empty collection)
+2016-08-23 14:36:52 DEBUG Bootstrap:225 - WELD-000105: Enabled interceptor types for Weld BeanManager for ef325853-f7f2-47d7-8b1b-5d38a22383e9.jar [bean count=3]: (empty collection)
+2016-08-23 14:36:52 DEBUG Bootstrap:108 - WELD-000108: Decorator: Decorator [class org.jboss.weld.environment.se.threading.RunnableDecorator] decorates [Runnable] with delegate type [Runnable] and delegate qualifiers [@Default]
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [List<String>] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgs()]
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Default]
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%ef325853-f7f2-47d7-8b1b-5d38a22383e9.jar%BoundSessionContext
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%ef325853-f7f2-47d7-8b1b-5d38a22383e9.jar%BoundRequestContext
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [String[]] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgsAsArray()]
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [java.security.Principal] with qualifiers [@Default]
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%ef325853-f7f2-47d7-8b1b-5d38a22383e9.jar%SingletonContext
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%ef325853-f7f2-47d7-8b1b-5d38a22383e9.jar%DependentContext
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%ef325853-f7f2-47d7-8b1b-5d38a22383e9.jar%BoundConversationContext
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Intercepted]
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.InstanceManager] with qualifiers [@Any @Default]
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Interceptor] with qualifiers [@Default]
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [JAXBContext] with qualifiers [@ClassBinding @Any] declared as [[BackedAnnotatedMethod] @Produces @ClassBinding public dbr.JAXBContextProducer.produceJAXBContext(InjectionPoint)]
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class dbr.JAXBContextProducer] with qualifiers [@Any @Default]
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%ef325853-f7f2-47d7-8b1b-5d38a22383e9.jar%ApplicationContext
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Decorated]
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class murex.test.rita.books.TestDependencyInjection] with qualifiers [@Any @Default]
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%ef325853-f7f2-47d7-8b1b-5d38a22383e9.jar%RequestContext
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.event.Event] with qualifiers [@Default]
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%ef325853-f7f2-47d7-8b1b-5d38a22383e9.jar%EjbRequestContext
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.ParametersFactory] with qualifiers [@Any @Default]
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.WeldContainer] with qualifiers [@Any @Default]
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%ef325853-f7f2-47d7-8b1b-5d38a22383e9.jar%Conversation
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.transaction.UserTransaction] with qualifiers [@Default]
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.Instance] with qualifiers [@Default]
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.EventMetadata] with qualifiers [@Default]
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Decorator] with qualifiers [@Default]
+2016-08-23 14:36:52 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.InjectionPoint] with qualifiers [@Default]
+2016-08-23 14:36:52 DEBUG Bootstrap:433 - WELD-000100: Weld initialized. Validating beans
+2016-08-23 14:37:22 DEBUG logging:35 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-08-23 14:37:22 INFO  Version:152 - WELD-000900: 2.2.9 (Final)
+2016-08-23 14:37:22 DEBUG Bootstrap:40 - WELD-000124: Using 4 threads for bootstrap
+2016-08-23 14:37:22 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%ApplicationContext
+2016-08-23 14:37:22 DEBUG Reflection:72 - WELD-000601: interface javax.inject.Singleton is missing @Target. Weld will use this annotation, however this may make the application unportable.
+2016-08-23 14:37:22 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%SingletonContext
+2016-08-23 14:37:22 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundSessionContext
+2016-08-23 14:37:22 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundConversationContext
+2016-08-23 14:37:22 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundRequestContext
+2016-08-23 14:37:22 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%RequestContext
+2016-08-23 14:37:22 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%DependentContext
+2016-08-23 14:37:22 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%EjbRequestContext
+2016-08-23 14:37:22 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 14:37:22 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 14:37:22 DEBUG Bootstrap:507 - WELD-000106: Bean: Extension [class org.jboss.weld.environment.se.WeldSEBeanRegistrant] with qualifiers [@Default]; jar:file:/C:/Users/rcpopescu/.m2/repository/org/jboss/weld/se/weld-se/2.2.9.Final/weld-se-2.2.9.Final.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@1
+2016-08-23 14:37:22 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 14:37:22 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 14:37:22 DEBUG Bootstrap:223 - WELD-000103: Enabled alternatives for Weld BeanManager for 84747674-02b2-4973-98f5-ce65a9780acc.jar [bean count=3]: (empty collection)
+2016-08-23 14:37:22 DEBUG Bootstrap:224 - WELD-000104: Enabled decorator types for Weld BeanManager for 84747674-02b2-4973-98f5-ce65a9780acc.jar [bean count=3]: (empty collection)
+2016-08-23 14:37:22 DEBUG Bootstrap:225 - WELD-000105: Enabled interceptor types for Weld BeanManager for 84747674-02b2-4973-98f5-ce65a9780acc.jar [bean count=3]: (empty collection)
+2016-08-23 14:37:22 DEBUG Bootstrap:108 - WELD-000108: Decorator: Decorator [class org.jboss.weld.environment.se.threading.RunnableDecorator] decorates [Runnable] with delegate type [Runnable] and delegate qualifiers [@Default]
+2016-08-23 14:37:22 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class dbr.JAXBContextProducer] with qualifiers [@Any @Default]
+2016-08-23 14:37:22 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [List<String>] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgs()]
+2016-08-23 14:37:22 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.EventMetadata] with qualifiers [@Default]
+2016-08-23 14:37:22 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.event.Event] with qualifiers [@Default]
+2016-08-23 14:37:22 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%84747674-02b2-4973-98f5-ce65a9780acc.jar%EjbRequestContext
+2016-08-23 14:37:22 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%84747674-02b2-4973-98f5-ce65a9780acc.jar%BoundConversationContext
+2016-08-23 14:37:23 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Decorated]
+2016-08-23 14:37:23 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.ParametersFactory] with qualifiers [@Any @Default]
+2016-08-23 14:37:23 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%84747674-02b2-4973-98f5-ce65a9780acc.jar%Conversation
+2016-08-23 14:37:23 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Intercepted]
+2016-08-23 14:37:23 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%84747674-02b2-4973-98f5-ce65a9780acc.jar%ApplicationContext
+2016-08-23 14:37:23 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%84747674-02b2-4973-98f5-ce65a9780acc.jar%BoundSessionContext
+2016-08-23 14:37:23 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [JAXBContext] with qualifiers [@ClassBinding @Any] declared as [[BackedAnnotatedMethod] @Produces @ClassBinding public dbr.JAXBContextProducer.produceJAXBContext(InjectionPoint)]
+2016-08-23 14:37:23 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.InjectionPoint] with qualifiers [@Default]
+2016-08-23 14:37:23 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class murex.test.rita.books.TestDependencyInjection] with qualifiers [@Any @Default]
+2016-08-23 14:37:23 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Decorator] with qualifiers [@Default]
+2016-08-23 14:37:23 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.InstanceManager] with qualifiers [@Any @Default]
+2016-08-23 14:37:23 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.transaction.UserTransaction] with qualifiers [@Default]
+2016-08-23 14:37:23 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.Instance] with qualifiers [@Default]
+2016-08-23 14:37:23 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [String[]] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgsAsArray()]
+2016-08-23 14:37:23 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%84747674-02b2-4973-98f5-ce65a9780acc.jar%SingletonContext
+2016-08-23 14:37:23 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.WeldContainer] with qualifiers [@Any @Default]
+2016-08-23 14:37:23 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%84747674-02b2-4973-98f5-ce65a9780acc.jar%DependentContext
+2016-08-23 14:37:23 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%84747674-02b2-4973-98f5-ce65a9780acc.jar%BoundRequestContext
+2016-08-23 14:37:23 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [java.security.Principal] with qualifiers [@Default]
+2016-08-23 14:37:23 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Default]
+2016-08-23 14:37:23 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%84747674-02b2-4973-98f5-ce65a9780acc.jar%RequestContext
+2016-08-23 14:37:23 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Interceptor] with qualifiers [@Default]
+2016-08-23 14:37:23 DEBUG Bootstrap:433 - WELD-000100: Weld initialized. Validating beans
+2016-08-23 14:39:55 DEBUG logging:35 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-08-23 14:39:55 INFO  Version:152 - WELD-000900: 2.2.9 (Final)
+2016-08-23 14:39:55 DEBUG Bootstrap:40 - WELD-000124: Using 4 threads for bootstrap
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%ApplicationContext
+2016-08-23 14:39:55 DEBUG Reflection:72 - WELD-000601: interface javax.inject.Singleton is missing @Target. Weld will use this annotation, however this may make the application unportable.
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%SingletonContext
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundSessionContext
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundConversationContext
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundRequestContext
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%RequestContext
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%DependentContext
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%EjbRequestContext
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Extension [class org.jboss.weld.environment.se.WeldSEBeanRegistrant] with qualifiers [@Default]; jar:file:/C:/Users/rcpopescu/.m2/repository/org/jboss/weld/se/weld-se/2.2.9.Final/weld-se-2.2.9.Final.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@1
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 14:39:55 DEBUG Bootstrap:223 - WELD-000103: Enabled alternatives for Weld BeanManager for 96932544-dd18-4163-b0c8-982bfd0f180e.jar [bean count=3]: (empty collection)
+2016-08-23 14:39:55 DEBUG Bootstrap:224 - WELD-000104: Enabled decorator types for Weld BeanManager for 96932544-dd18-4163-b0c8-982bfd0f180e.jar [bean count=3]: (empty collection)
+2016-08-23 14:39:55 DEBUG Bootstrap:225 - WELD-000105: Enabled interceptor types for Weld BeanManager for 96932544-dd18-4163-b0c8-982bfd0f180e.jar [bean count=3]: (empty collection)
+2016-08-23 14:39:55 DEBUG Bootstrap:108 - WELD-000108: Decorator: Decorator [class org.jboss.weld.environment.se.threading.RunnableDecorator] decorates [Runnable] with delegate type [Runnable] and delegate qualifiers [@Default]
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.InstanceManager] with qualifiers [@Any @Default]
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%96932544-dd18-4163-b0c8-982bfd0f180e.jar%SingletonContext
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Default]
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%96932544-dd18-4163-b0c8-982bfd0f180e.jar%DependentContext
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [java.security.Principal] with qualifiers [@Default]
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.WeldContainer] with qualifiers [@Any @Default]
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%96932544-dd18-4163-b0c8-982bfd0f180e.jar%BoundSessionContext
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class dbr.JAXBContextProducer] with qualifiers [@Any @Default]
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class murex.test.rita.books.TestDependencyInjection] with qualifiers [@Any @Default]
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%96932544-dd18-4163-b0c8-982bfd0f180e.jar%RequestContext
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%96932544-dd18-4163-b0c8-982bfd0f180e.jar%ApplicationContext
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.ParametersFactory] with qualifiers [@Any @Default]
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Decorated]
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%96932544-dd18-4163-b0c8-982bfd0f180e.jar%BoundConversationContext
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.EventMetadata] with qualifiers [@Default]
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Decorator] with qualifiers [@Default]
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%96932544-dd18-4163-b0c8-982bfd0f180e.jar%EjbRequestContext
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%96932544-dd18-4163-b0c8-982bfd0f180e.jar%Conversation
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [List<String>] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgs()]
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.transaction.UserTransaction] with qualifiers [@Default]
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Interceptor] with qualifiers [@Default]
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.InjectionPoint] with qualifiers [@Default]
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [String[]] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgsAsArray()]
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%96932544-dd18-4163-b0c8-982bfd0f180e.jar%BoundRequestContext
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.event.Event] with qualifiers [@Default]
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.Instance] with qualifiers [@Default]
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [JAXBContext] with qualifiers [@Any @Default] declared as [[BackedAnnotatedMethod] @Produces public dbr.JAXBContextProducer.produceJAXBContext(InjectionPoint)]
+2016-08-23 14:39:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Intercepted]
+2016-08-23 14:39:55 DEBUG Bootstrap:433 - WELD-000100: Weld initialized. Validating beans
+2016-08-23 14:39:55 DEBUG Reflection:82 - WELD-000620: interface javax.enterprise.inject.Decorated is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+2016-08-23 14:39:55 DEBUG Reflection:82 - WELD-000620: interface javax.enterprise.inject.Intercepted is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+2016-08-23 14:40:04 DEBUG logging:35 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-08-23 14:40:04 INFO  Version:152 - WELD-000900: 2.2.9 (Final)
+2016-08-23 14:40:04 DEBUG Bootstrap:40 - WELD-000124: Using 4 threads for bootstrap
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%ApplicationContext
+2016-08-23 14:40:04 DEBUG Reflection:72 - WELD-000601: interface javax.inject.Singleton is missing @Target. Weld will use this annotation, however this may make the application unportable.
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%SingletonContext
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundSessionContext
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundConversationContext
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundRequestContext
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%RequestContext
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%DependentContext
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%EjbRequestContext
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Extension [class org.jboss.weld.environment.se.WeldSEBeanRegistrant] with qualifiers [@Default]; jar:file:/C:/Users/rcpopescu/.m2/repository/org/jboss/weld/se/weld-se/2.2.9.Final/weld-se-2.2.9.Final.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@1
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 14:40:04 DEBUG Bootstrap:223 - WELD-000103: Enabled alternatives for Weld BeanManager for 1505fecf-b285-4f7c-b30f-1afdb35d18bc.jar [bean count=3]: (empty collection)
+2016-08-23 14:40:04 DEBUG Bootstrap:224 - WELD-000104: Enabled decorator types for Weld BeanManager for 1505fecf-b285-4f7c-b30f-1afdb35d18bc.jar [bean count=3]: (empty collection)
+2016-08-23 14:40:04 DEBUG Bootstrap:225 - WELD-000105: Enabled interceptor types for Weld BeanManager for 1505fecf-b285-4f7c-b30f-1afdb35d18bc.jar [bean count=3]: (empty collection)
+2016-08-23 14:40:04 DEBUG Bootstrap:108 - WELD-000108: Decorator: Decorator [class org.jboss.weld.environment.se.threading.RunnableDecorator] decorates [Runnable] with delegate type [Runnable] and delegate qualifiers [@Default]
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [java.security.Principal] with qualifiers [@Default]
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Interceptor] with qualifiers [@Default]
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class murex.test.rita.books.TestDependencyInjection] with qualifiers [@Any @Default]
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%1505fecf-b285-4f7c-b30f-1afdb35d18bc.jar%SingletonContext
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.ParametersFactory] with qualifiers [@Any @Default]
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Intercepted]
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%1505fecf-b285-4f7c-b30f-1afdb35d18bc.jar%ApplicationContext
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class dbr.JAXBContextProducer] with qualifiers [@Any @Default]
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Decorator] with qualifiers [@Default]
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.InstanceManager] with qualifiers [@Any @Default]
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%1505fecf-b285-4f7c-b30f-1afdb35d18bc.jar%EjbRequestContext
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [List<String>] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgs()]
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [String[]] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgsAsArray()]
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%1505fecf-b285-4f7c-b30f-1afdb35d18bc.jar%DependentContext
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%1505fecf-b285-4f7c-b30f-1afdb35d18bc.jar%RequestContext
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.event.Event] with qualifiers [@Default]
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [JAXBContext] with qualifiers [@Any @Default] declared as [[BackedAnnotatedMethod] @Produces public dbr.JAXBContextProducer.produceJAXBContext(InjectionPoint)]
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%1505fecf-b285-4f7c-b30f-1afdb35d18bc.jar%BoundRequestContext
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.WeldContainer] with qualifiers [@Any @Default]
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.EventMetadata] with qualifiers [@Default]
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Default]
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%1505fecf-b285-4f7c-b30f-1afdb35d18bc.jar%Conversation
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Decorated]
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.InjectionPoint] with qualifiers [@Default]
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%1505fecf-b285-4f7c-b30f-1afdb35d18bc.jar%BoundSessionContext
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.transaction.UserTransaction] with qualifiers [@Default]
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%1505fecf-b285-4f7c-b30f-1afdb35d18bc.jar%BoundConversationContext
+2016-08-23 14:40:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.Instance] with qualifiers [@Default]
+2016-08-23 14:40:04 DEBUG Bootstrap:433 - WELD-000100: Weld initialized. Validating beans
+2016-08-23 14:40:05 DEBUG Reflection:82 - WELD-000620: interface javax.enterprise.inject.Intercepted is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+2016-08-23 14:40:05 DEBUG Reflection:82 - WELD-000620: interface javax.enterprise.inject.Decorated is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:01:05 DEBUG logging:35 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-08-23 15:01:05 INFO  Version:152 - WELD-000900: 2.2.9 (Final)
+2016-08-23 15:01:05 DEBUG Bootstrap:40 - WELD-000124: Using 4 threads for bootstrap
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%ApplicationContext
+2016-08-23 15:01:05 DEBUG Reflection:72 - WELD-000601: interface javax.inject.Singleton is missing @Target. Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%SingletonContext
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundSessionContext
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundConversationContext
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundRequestContext
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%RequestContext
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%DependentContext
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%EjbRequestContext
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: Extension [class org.jboss.weld.environment.se.WeldSEBeanRegistrant] with qualifiers [@Default]; jar:file:/C:/Users/rcpopescu/.m2/repository/org/jboss/weld/se/weld-se/2.2.9.Final/weld-se-2.2.9.Final.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@1
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 15:01:05 DEBUG Bootstrap:223 - WELD-000103: Enabled alternatives for Weld BeanManager for 12c188cb-24e3-4446-bbee-88638bc4f878.jar [bean count=3]: (empty collection)
+2016-08-23 15:01:05 DEBUG Bootstrap:224 - WELD-000104: Enabled decorator types for Weld BeanManager for 12c188cb-24e3-4446-bbee-88638bc4f878.jar [bean count=3]: (empty collection)
+2016-08-23 15:01:05 DEBUG Bootstrap:225 - WELD-000105: Enabled interceptor types for Weld BeanManager for 12c188cb-24e3-4446-bbee-88638bc4f878.jar [bean count=3]: (empty collection)
+2016-08-23 15:01:05 DEBUG Bootstrap:108 - WELD-000108: Decorator: Decorator [class org.jboss.weld.environment.se.threading.RunnableDecorator] decorates [Runnable] with delegate type [Runnable] and delegate qualifiers [@Default]
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.Instance] with qualifiers [@Default]
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%12c188cb-24e3-4446-bbee-88638bc4f878.jar%EjbRequestContext
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class dbr.JAXBContextProducer] with qualifiers [@Any @Default]
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [List<String>] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgs()]
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Interceptor] with qualifiers [@Default]
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [JAXBContext] with qualifiers [@Any @Default] declared as [[BackedAnnotatedMethod] @Produces public dbr.JAXBContextProducer.produceJAXBContext(InjectionPoint)]
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [String[]] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgsAsArray()]
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [java.security.Principal] with qualifiers [@Default]
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%12c188cb-24e3-4446-bbee-88638bc4f878.jar%Conversation
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Intercepted]
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.InstanceManager] with qualifiers [@Any @Default]
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%12c188cb-24e3-4446-bbee-88638bc4f878.jar%DependentContext
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%12c188cb-24e3-4446-bbee-88638bc4f878.jar%BoundSessionContext
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.event.Event] with qualifiers [@Default]
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Decorator] with qualifiers [@Default]
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%12c188cb-24e3-4446-bbee-88638bc4f878.jar%BoundRequestContext
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.ParametersFactory] with qualifiers [@Any @Default]
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%12c188cb-24e3-4446-bbee-88638bc4f878.jar%BoundConversationContext
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%12c188cb-24e3-4446-bbee-88638bc4f878.jar%ApplicationContext
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Default]
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%12c188cb-24e3-4446-bbee-88638bc4f878.jar%SingletonContext
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.transaction.UserTransaction] with qualifiers [@Default]
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.WeldContainer] with qualifiers [@Any @Default]
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%12c188cb-24e3-4446-bbee-88638bc4f878.jar%RequestContext
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Decorated]
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.EventMetadata] with qualifiers [@Default]
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class murex.test.rita.books.TestDependencyInjection] with qualifiers [@Any @Default]
+2016-08-23 15:01:05 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.InjectionPoint] with qualifiers [@Default]
+2016-08-23 15:01:05 DEBUG Bootstrap:433 - WELD-000100: Weld initialized. Validating beans
+2016-08-23 15:01:05 DEBUG Reflection:82 - WELD-000620: interface javax.enterprise.inject.Intercepted is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:01:05 DEBUG Reflection:82 - WELD-000620: interface javax.enterprise.inject.Decorated is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:01:55 DEBUG logging:35 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-08-23 15:01:55 INFO  Version:152 - WELD-000900: 2.2.9 (Final)
+2016-08-23 15:01:56 DEBUG Bootstrap:40 - WELD-000124: Using 4 threads for bootstrap
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%ApplicationContext
+2016-08-23 15:01:56 DEBUG Reflection:72 - WELD-000601: interface javax.inject.Singleton is missing @Target. Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%SingletonContext
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundSessionContext
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundConversationContext
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundRequestContext
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%RequestContext
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%DependentContext
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%EjbRequestContext
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: Extension [class org.jboss.weld.environment.se.WeldSEBeanRegistrant] with qualifiers [@Default]; jar:file:/C:/Users/rcpopescu/.m2/repository/org/jboss/weld/se/weld-se/2.2.9.Final/weld-se-2.2.9.Final.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@1
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 15:01:56 DEBUG Bootstrap:223 - WELD-000103: Enabled alternatives for Weld BeanManager for b3781fa1-bd1f-47cb-bd4f-55a4ff8aab49.jar [bean count=3]: (empty collection)
+2016-08-23 15:01:56 DEBUG Bootstrap:224 - WELD-000104: Enabled decorator types for Weld BeanManager for b3781fa1-bd1f-47cb-bd4f-55a4ff8aab49.jar [bean count=3]: (empty collection)
+2016-08-23 15:01:56 DEBUG Bootstrap:225 - WELD-000105: Enabled interceptor types for Weld BeanManager for b3781fa1-bd1f-47cb-bd4f-55a4ff8aab49.jar [bean count=3]: (empty collection)
+2016-08-23 15:01:56 DEBUG Bootstrap:108 - WELD-000108: Decorator: Decorator [class org.jboss.weld.environment.se.threading.RunnableDecorator] decorates [Runnable] with delegate type [Runnable] and delegate qualifiers [@Default]
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.WeldContainer] with qualifiers [@Any @Default]
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class dbr.JAXBContextProducer] with qualifiers [@Any @Default]
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Decorated]
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.ParametersFactory] with qualifiers [@Any @Default]
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [String[]] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgsAsArray()]
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%b3781fa1-bd1f-47cb-bd4f-55a4ff8aab49.jar%SingletonContext
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [List<String>] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgs()]
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%b3781fa1-bd1f-47cb-bd4f-55a4ff8aab49.jar%BoundConversationContext
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [java.security.Principal] with qualifiers [@Default]
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%b3781fa1-bd1f-47cb-bd4f-55a4ff8aab49.jar%BoundRequestContext
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%b3781fa1-bd1f-47cb-bd4f-55a4ff8aab49.jar%BoundSessionContext
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%b3781fa1-bd1f-47cb-bd4f-55a4ff8aab49.jar%Conversation
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.Instance] with qualifiers [@Default]
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.event.Event] with qualifiers [@Default]
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%b3781fa1-bd1f-47cb-bd4f-55a4ff8aab49.jar%ApplicationContext
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%b3781fa1-bd1f-47cb-bd4f-55a4ff8aab49.jar%RequestContext
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [JAXBContext] with qualifiers [@Any @Default] declared as [[BackedAnnotatedMethod] @Produces public dbr.JAXBContextProducer.produceJAXBContext(InjectionPoint)]
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%b3781fa1-bd1f-47cb-bd4f-55a4ff8aab49.jar%EjbRequestContext
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Interceptor] with qualifiers [@Default]
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.InjectionPoint] with qualifiers [@Default]
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%b3781fa1-bd1f-47cb-bd4f-55a4ff8aab49.jar%DependentContext
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.transaction.UserTransaction] with qualifiers [@Default]
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.EventMetadata] with qualifiers [@Default]
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Default]
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Intercepted]
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Decorator] with qualifiers [@Default]
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.InstanceManager] with qualifiers [@Any @Default]
+2016-08-23 15:01:56 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class murex.test.rita.books.TestDependencyInjection] with qualifiers [@Any @Default]
+2016-08-23 15:01:56 DEBUG Bootstrap:433 - WELD-000100: Weld initialized. Validating beans
+2016-08-23 15:01:56 DEBUG Reflection:82 - WELD-000620: interface javax.enterprise.inject.Decorated is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:01:56 DEBUG Reflection:82 - WELD-000620: interface javax.enterprise.inject.Intercepted is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:03:04 DEBUG logging:35 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-08-23 15:03:04 INFO  Version:152 - WELD-000900: 2.2.9 (Final)
+2016-08-23 15:03:04 DEBUG Bootstrap:40 - WELD-000124: Using 4 threads for bootstrap
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%ApplicationContext
+2016-08-23 15:03:04 DEBUG Reflection:72 - WELD-000601: interface javax.inject.Singleton is missing @Target. Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%SingletonContext
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundSessionContext
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundConversationContext
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundRequestContext
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%RequestContext
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%DependentContext
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%EjbRequestContext
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Extension [class org.jboss.weld.environment.se.WeldSEBeanRegistrant] with qualifiers [@Default]; jar:file:/C:/Users/rcpopescu/.m2/repository/org/jboss/weld/se/weld-se/2.2.9.Final/weld-se-2.2.9.Final.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@1
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 15:03:04 DEBUG Bootstrap:223 - WELD-000103: Enabled alternatives for Weld BeanManager for 05c0c666-9897-4c95-9fba-256c496ab7d1.jar [bean count=3]: (empty collection)
+2016-08-23 15:03:04 DEBUG Bootstrap:224 - WELD-000104: Enabled decorator types for Weld BeanManager for 05c0c666-9897-4c95-9fba-256c496ab7d1.jar [bean count=3]: (empty collection)
+2016-08-23 15:03:04 DEBUG Bootstrap:225 - WELD-000105: Enabled interceptor types for Weld BeanManager for 05c0c666-9897-4c95-9fba-256c496ab7d1.jar [bean count=3]: (empty collection)
+2016-08-23 15:03:04 DEBUG Bootstrap:108 - WELD-000108: Decorator: Decorator [class org.jboss.weld.environment.se.threading.RunnableDecorator] decorates [Runnable] with delegate type [Runnable] and delegate qualifiers [@Default]
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%05c0c666-9897-4c95-9fba-256c496ab7d1.jar%DependentContext
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [JAXBContext] with qualifiers [@Any @Default] declared as [[BackedAnnotatedMethod] @Produces public dbr.JAXBContextProducer.produceJAXBContext(InjectionPoint)]
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%05c0c666-9897-4c95-9fba-256c496ab7d1.jar%BoundConversationContext
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.InstanceManager] with qualifiers [@Any @Default]
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Intercepted]
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%05c0c666-9897-4c95-9fba-256c496ab7d1.jar%BoundRequestContext
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%05c0c666-9897-4c95-9fba-256c496ab7d1.jar%RequestContext
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Default]
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class dbr.JAXBContextProducer] with qualifiers [@Any @Default]
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [List<String>] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgs()]
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Interceptor] with qualifiers [@Default]
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [String[]] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgsAsArray()]
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.transaction.UserTransaction] with qualifiers [@Default]
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%05c0c666-9897-4c95-9fba-256c496ab7d1.jar%Conversation
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.InjectionPoint] with qualifiers [@Default]
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Decorated]
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%05c0c666-9897-4c95-9fba-256c496ab7d1.jar%SingletonContext
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.event.Event] with qualifiers [@Default]
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%05c0c666-9897-4c95-9fba-256c496ab7d1.jar%ApplicationContext
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class murex.test.rita.books.TestDependencyInjection] with qualifiers [@Any @Default]
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.ParametersFactory] with qualifiers [@Any @Default]
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.WeldContainer] with qualifiers [@Any @Default]
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%05c0c666-9897-4c95-9fba-256c496ab7d1.jar%EjbRequestContext
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.EventMetadata] with qualifiers [@Default]
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.Instance] with qualifiers [@Default]
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Decorator] with qualifiers [@Default]
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [java.security.Principal] with qualifiers [@Default]
+2016-08-23 15:03:04 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%05c0c666-9897-4c95-9fba-256c496ab7d1.jar%BoundSessionContext
+2016-08-23 15:03:04 DEBUG Bootstrap:433 - WELD-000100: Weld initialized. Validating beans
+2016-08-23 15:03:04 DEBUG Reflection:82 - WELD-000620: interface javax.enterprise.inject.Intercepted is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:03:04 DEBUG Reflection:82 - WELD-000620: interface javax.enterprise.inject.Decorated is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:05:55 DEBUG logging:35 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-08-23 15:05:55 INFO  Version:152 - WELD-000900: 2.2.9 (Final)
+2016-08-23 15:05:55 DEBUG Bootstrap:40 - WELD-000124: Using 4 threads for bootstrap
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%ApplicationContext
+2016-08-23 15:05:55 DEBUG Reflection:72 - WELD-000601: interface javax.inject.Singleton is missing @Target. Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%SingletonContext
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundSessionContext
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundConversationContext
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundRequestContext
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%RequestContext
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%DependentContext
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%EjbRequestContext
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Extension [class org.jboss.weld.environment.se.WeldSEBeanRegistrant] with qualifiers [@Default]; jar:file:/C:/Users/rcpopescu/.m2/repository/org/jboss/weld/se/weld-se/2.2.9.Final/weld-se-2.2.9.Final.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@1
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 15:05:55 DEBUG Bootstrap:223 - WELD-000103: Enabled alternatives for Weld BeanManager for dd044163-c11d-41a9-9b91-cf491010c04e.jar [bean count=3]: (empty collection)
+2016-08-23 15:05:55 DEBUG Bootstrap:224 - WELD-000104: Enabled decorator types for Weld BeanManager for dd044163-c11d-41a9-9b91-cf491010c04e.jar [bean count=3]: (empty collection)
+2016-08-23 15:05:55 DEBUG Bootstrap:225 - WELD-000105: Enabled interceptor types for Weld BeanManager for dd044163-c11d-41a9-9b91-cf491010c04e.jar [bean count=3]: (empty collection)
+2016-08-23 15:05:55 DEBUG Bootstrap:108 - WELD-000108: Decorator: Decorator [class org.jboss.weld.environment.se.threading.RunnableDecorator] decorates [Runnable] with delegate type [Runnable] and delegate qualifiers [@Default]
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%dd044163-c11d-41a9-9b91-cf491010c04e.jar%EjbRequestContext
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.WeldContainer] with qualifiers [@Any @Default]
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class murex.test.rita.books.TestDependencyInjection] with qualifiers [@Any @Default]
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%dd044163-c11d-41a9-9b91-cf491010c04e.jar%ApplicationContext
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Default]
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.Instance] with qualifiers [@Default]
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%dd044163-c11d-41a9-9b91-cf491010c04e.jar%BoundSessionContext
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%dd044163-c11d-41a9-9b91-cf491010c04e.jar%RequestContext
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Interceptor] with qualifiers [@Default]
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.InstanceManager] with qualifiers [@Any @Default]
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class dbr.JAXBContextProducer] with qualifiers [@Any @Default]
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%dd044163-c11d-41a9-9b91-cf491010c04e.jar%SingletonContext
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%dd044163-c11d-41a9-9b91-cf491010c04e.jar%BoundRequestContext
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Decorated]
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%dd044163-c11d-41a9-9b91-cf491010c04e.jar%BoundConversationContext
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [String[]] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgsAsArray()]
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.EventMetadata] with qualifiers [@Default]
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.event.Event] with qualifiers [@Default]
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [List<String>] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgs()]
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.transaction.UserTransaction] with qualifiers [@Default]
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Decorator] with qualifiers [@Default]
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [JAXBContext] with qualifiers [@Any @Default] declared as [[BackedAnnotatedMethod] @Produces public dbr.JAXBContextProducer.produceJAXBContext(InjectionPoint)]
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.InjectionPoint] with qualifiers [@Default]
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Intercepted]
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%dd044163-c11d-41a9-9b91-cf491010c04e.jar%DependentContext
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.ParametersFactory] with qualifiers [@Any @Default]
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [java.security.Principal] with qualifiers [@Default]
+2016-08-23 15:05:55 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%dd044163-c11d-41a9-9b91-cf491010c04e.jar%Conversation
+2016-08-23 15:05:55 DEBUG Bootstrap:433 - WELD-000100: Weld initialized. Validating beans
+2016-08-23 15:05:55 DEBUG Reflection:82 - WELD-000620: interface javax.enterprise.inject.Decorated is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:05:55 DEBUG Reflection:82 - WELD-000620: interface javax.enterprise.inject.Intercepted is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:07:51 DEBUG logging:35 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-08-23 15:07:51 INFO  Version:152 - WELD-000900: 2.2.9 (Final)
+2016-08-23 15:07:51 DEBUG Bootstrap:40 - WELD-000124: Using 4 threads for bootstrap
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%ApplicationContext
+2016-08-23 15:07:51 DEBUG Reflection:72 - WELD-000601: interface javax.inject.Singleton is missing @Target. Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%SingletonContext
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundSessionContext
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundConversationContext
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundRequestContext
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%RequestContext
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%DependentContext
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%EjbRequestContext
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Extension [class org.jboss.weld.environment.se.WeldSEBeanRegistrant] with qualifiers [@Default]; jar:file:/C:/Users/rcpopescu/.m2/repository/org/jboss/weld/se/weld-se/2.2.9.Final/weld-se-2.2.9.Final.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@1
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 15:07:51 DEBUG Bootstrap:223 - WELD-000103: Enabled alternatives for Weld BeanManager for d1d2e46c-e599-4080-b24e-98fc31cf3262.jar [bean count=3]: (empty collection)
+2016-08-23 15:07:51 DEBUG Bootstrap:224 - WELD-000104: Enabled decorator types for Weld BeanManager for d1d2e46c-e599-4080-b24e-98fc31cf3262.jar [bean count=3]: (empty collection)
+2016-08-23 15:07:51 DEBUG Bootstrap:225 - WELD-000105: Enabled interceptor types for Weld BeanManager for d1d2e46c-e599-4080-b24e-98fc31cf3262.jar [bean count=3]: (empty collection)
+2016-08-23 15:07:51 DEBUG Bootstrap:108 - WELD-000108: Decorator: Decorator [class org.jboss.weld.environment.se.threading.RunnableDecorator] decorates [Runnable] with delegate type [Runnable] and delegate qualifiers [@Default]
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [List<String>] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgs()]
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%d1d2e46c-e599-4080-b24e-98fc31cf3262.jar%EjbRequestContext
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Interceptor] with qualifiers [@Default]
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [String[]] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgsAsArray()]
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Intercepted]
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.event.Event] with qualifiers [@Default]
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.WeldContainer] with qualifiers [@Any @Default]
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.ParametersFactory] with qualifiers [@Any @Default]
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%d1d2e46c-e599-4080-b24e-98fc31cf3262.jar%ApplicationContext
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class dbr.JAXBContextProducer] with qualifiers [@Any @Default]
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Decorated]
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.Instance] with qualifiers [@Default]
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%d1d2e46c-e599-4080-b24e-98fc31cf3262.jar%DependentContext
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [JAXBContext] with qualifiers [@Any @Default] declared as [[BackedAnnotatedMethod] @Produces public dbr.JAXBContextProducer.produceJAXBContext(InjectionPoint)]
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.transaction.UserTransaction] with qualifiers [@Default]
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%d1d2e46c-e599-4080-b24e-98fc31cf3262.jar%BoundSessionContext
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%d1d2e46c-e599-4080-b24e-98fc31cf3262.jar%SingletonContext
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class murex.test.rita.books.TestDependencyInjection] with qualifiers [@Any @Default]
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%d1d2e46c-e599-4080-b24e-98fc31cf3262.jar%RequestContext
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Decorator] with qualifiers [@Default]
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.InstanceManager] with qualifiers [@Any @Default]
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [java.security.Principal] with qualifiers [@Default]
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.EventMetadata] with qualifiers [@Default]
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%d1d2e46c-e599-4080-b24e-98fc31cf3262.jar%Conversation
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.InjectionPoint] with qualifiers [@Default]
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%d1d2e46c-e599-4080-b24e-98fc31cf3262.jar%BoundRequestContext
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Default]
+2016-08-23 15:07:51 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%d1d2e46c-e599-4080-b24e-98fc31cf3262.jar%BoundConversationContext
+2016-08-23 15:07:51 DEBUG Bootstrap:433 - WELD-000100: Weld initialized. Validating beans
+2016-08-23 15:07:51 DEBUG Reflection:82 - WELD-000620: interface javax.enterprise.inject.Intercepted is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:07:51 DEBUG Reflection:82 - WELD-000620: interface javax.enterprise.inject.Decorated is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:09:07 DEBUG logging:35 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-08-23 15:09:07 INFO  Version:152 - WELD-000900: 2.2.9 (Final)
+2016-08-23 15:09:07 DEBUG Bootstrap:40 - WELD-000124: Using 4 threads for bootstrap
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%ApplicationContext
+2016-08-23 15:09:07 DEBUG Reflection:72 - WELD-000601: interface javax.inject.Singleton is missing @Target. Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%SingletonContext
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundSessionContext
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundConversationContext
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundRequestContext
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%RequestContext
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%DependentContext
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%EjbRequestContext
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: Extension [class org.jboss.weld.environment.se.WeldSEBeanRegistrant] with qualifiers [@Default]; jar:file:/C:/Users/rcpopescu/.m2/repository/org/jboss/weld/se/weld-se/2.2.9.Final/weld-se-2.2.9.Final.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@1
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 15:09:07 DEBUG Bootstrap:223 - WELD-000103: Enabled alternatives for Weld BeanManager for 8ca192c6-3a1d-4ea2-afaa-efd897fcf9c8.jar [bean count=3]: (empty collection)
+2016-08-23 15:09:07 DEBUG Bootstrap:224 - WELD-000104: Enabled decorator types for Weld BeanManager for 8ca192c6-3a1d-4ea2-afaa-efd897fcf9c8.jar [bean count=3]: (empty collection)
+2016-08-23 15:09:07 DEBUG Bootstrap:225 - WELD-000105: Enabled interceptor types for Weld BeanManager for 8ca192c6-3a1d-4ea2-afaa-efd897fcf9c8.jar [bean count=3]: (empty collection)
+2016-08-23 15:09:07 DEBUG Bootstrap:108 - WELD-000108: Decorator: Decorator [class org.jboss.weld.environment.se.threading.RunnableDecorator] decorates [Runnable] with delegate type [Runnable] and delegate qualifiers [@Default]
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.InjectionPoint] with qualifiers [@Default]
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [List<String>] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgs()]
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [JAXBContext] with qualifiers [@Any @Default] declared as [[BackedAnnotatedMethod] @Produces public dbr.JAXBContextProducer.produceJAXBContext(InjectionPoint)]
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%8ca192c6-3a1d-4ea2-afaa-efd897fcf9c8.jar%RequestContext
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Default]
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Decorator] with qualifiers [@Default]
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.EventMetadata] with qualifiers [@Default]
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Decorated]
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.Instance] with qualifiers [@Default]
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.WeldContainer] with qualifiers [@Any @Default]
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%8ca192c6-3a1d-4ea2-afaa-efd897fcf9c8.jar%BoundRequestContext
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%8ca192c6-3a1d-4ea2-afaa-efd897fcf9c8.jar%DependentContext
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%8ca192c6-3a1d-4ea2-afaa-efd897fcf9c8.jar%BoundSessionContext
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.ParametersFactory] with qualifiers [@Any @Default]
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%8ca192c6-3a1d-4ea2-afaa-efd897fcf9c8.jar%BoundConversationContext
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.transaction.UserTransaction] with qualifiers [@Default]
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Interceptor] with qualifiers [@Default]
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%8ca192c6-3a1d-4ea2-afaa-efd897fcf9c8.jar%ApplicationContext
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.InstanceManager] with qualifiers [@Any @Default]
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class dbr.JAXBContextProducer] with qualifiers [@Any @Default]
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.event.Event] with qualifiers [@Default]
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [String[]] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgsAsArray()]
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%8ca192c6-3a1d-4ea2-afaa-efd897fcf9c8.jar%Conversation
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class murex.test.rita.books.TestDependencyInjection] with qualifiers [@Any @Default]
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%8ca192c6-3a1d-4ea2-afaa-efd897fcf9c8.jar%EjbRequestContext
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Intercepted]
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%8ca192c6-3a1d-4ea2-afaa-efd897fcf9c8.jar%SingletonContext
+2016-08-23 15:09:07 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [java.security.Principal] with qualifiers [@Default]
+2016-08-23 15:09:07 DEBUG Bootstrap:433 - WELD-000100: Weld initialized. Validating beans
+2016-08-23 15:09:07 DEBUG Reflection:82 - WELD-000620: interface javax.enterprise.inject.Decorated is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:09:07 DEBUG Reflection:82 - WELD-000620: interface javax.enterprise.inject.Intercepted is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:24:24 DEBUG logging:35 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-08-23 15:24:24 INFO  Version:152 - WELD-000900: 2.2.9 (Final)
+2016-08-23 15:24:24 DEBUG Bootstrap:40 - WELD-000124: Using 4 threads for bootstrap
+2016-08-23 15:24:24 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%ApplicationContext
+2016-08-23 15:24:24 DEBUG Reflection:72 - WELD-000601: interface javax.inject.Singleton is missing @Target. Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:24:24 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%SingletonContext
+2016-08-23 15:24:24 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundSessionContext
+2016-08-23 15:24:24 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundConversationContext
+2016-08-23 15:24:24 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundRequestContext
+2016-08-23 15:24:24 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%RequestContext
+2016-08-23 15:24:24 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%DependentContext
+2016-08-23 15:24:24 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%EjbRequestContext
+2016-08-23 15:24:24 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 15:24:24 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 15:24:24 DEBUG Bootstrap:507 - WELD-000106: Bean: Extension [class org.jboss.weld.environment.se.WeldSEBeanRegistrant] with qualifiers [@Default]; jar:file:/C:/Users/rcpopescu/.m2/repository/org/jboss/weld/se/weld-se/2.2.9.Final/weld-se-2.2.9.Final.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@1
+2016-08-23 15:24:24 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 15:24:24 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 15:24:25 DEBUG Bootstrap:223 - WELD-000103: Enabled alternatives for Weld BeanManager for 3d8b9a4d-5c97-47eb-aaff-65ececdf88db.jar [bean count=3]: (empty collection)
+2016-08-23 15:24:25 DEBUG Bootstrap:224 - WELD-000104: Enabled decorator types for Weld BeanManager for 3d8b9a4d-5c97-47eb-aaff-65ececdf88db.jar [bean count=3]: (empty collection)
+2016-08-23 15:24:25 DEBUG Bootstrap:225 - WELD-000105: Enabled interceptor types for Weld BeanManager for 3d8b9a4d-5c97-47eb-aaff-65ececdf88db.jar [bean count=3]: (empty collection)
+2016-08-23 15:24:25 DEBUG Bootstrap:108 - WELD-000108: Decorator: Decorator [class org.jboss.weld.environment.se.threading.RunnableDecorator] decorates [Runnable] with delegate type [Runnable] and delegate qualifiers [@Default]
+2016-08-23 15:24:25 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%3d8b9a4d-5c97-47eb-aaff-65ececdf88db.jar%BoundConversationContext
+2016-08-23 15:24:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Default]
+2016-08-23 15:24:25 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%3d8b9a4d-5c97-47eb-aaff-65ececdf88db.jar%EjbRequestContext
+2016-08-23 15:24:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [List<String>] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgs()]
+2016-08-23 15:24:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Intercepted]
+2016-08-23 15:24:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.transaction.UserTransaction] with qualifiers [@Default]
+2016-08-23 15:24:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Decorated]
+2016-08-23 15:24:25 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%3d8b9a4d-5c97-47eb-aaff-65ececdf88db.jar%Conversation
+2016-08-23 15:24:25 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%3d8b9a4d-5c97-47eb-aaff-65ececdf88db.jar%BoundRequestContext
+2016-08-23 15:24:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.WeldContainer] with qualifiers [@Any @Default]
+2016-08-23 15:24:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.InstanceManager] with qualifiers [@Any @Default]
+2016-08-23 15:24:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [String[]] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgsAsArray()]
+2016-08-23 15:24:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.event.Event] with qualifiers [@Default]
+2016-08-23 15:24:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [JAXBContext] with qualifiers [@Any @Default] declared as [[BackedAnnotatedMethod] @Produces public dbr.JAXBContextProducer.produceJAXBContext(InjectionPoint)]
+2016-08-23 15:24:25 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%3d8b9a4d-5c97-47eb-aaff-65ececdf88db.jar%SingletonContext
+2016-08-23 15:24:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.Instance] with qualifiers [@Default]
+2016-08-23 15:24:25 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%3d8b9a4d-5c97-47eb-aaff-65ececdf88db.jar%ApplicationContext
+2016-08-23 15:24:25 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%3d8b9a4d-5c97-47eb-aaff-65ececdf88db.jar%RequestContext
+2016-08-23 15:24:25 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%3d8b9a4d-5c97-47eb-aaff-65ececdf88db.jar%BoundSessionContext
+2016-08-23 15:24:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class dbr.JAXBContextProducer] with qualifiers [@Any @Default]
+2016-08-23 15:24:25 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%3d8b9a4d-5c97-47eb-aaff-65ececdf88db.jar%DependentContext
+2016-08-23 15:24:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class murex.test.rita.books.TestDependencyInjection] with qualifiers [@Any @Default]
+2016-08-23 15:24:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [java.security.Principal] with qualifiers [@Default]
+2016-08-23 15:24:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.ParametersFactory] with qualifiers [@Any @Default]
+2016-08-23 15:24:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.EventMetadata] with qualifiers [@Default]
+2016-08-23 15:24:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Decorator] with qualifiers [@Default]
+2016-08-23 15:24:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.InjectionPoint] with qualifiers [@Default]
+2016-08-23 15:24:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Interceptor] with qualifiers [@Default]
+2016-08-23 15:24:25 DEBUG Bootstrap:433 - WELD-000100: Weld initialized. Validating beans
+2016-08-23 15:24:25 DEBUG Reflection:82 - WELD-000620: interface javax.enterprise.inject.Intercepted is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:24:25 DEBUG Reflection:82 - WELD-000620: interface javax.enterprise.inject.Decorated is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:29:29 DEBUG logging:35 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-08-23 15:29:29 INFO  Version:152 - WELD-000900: 2.2.9 (Final)
+2016-08-23 15:29:30 DEBUG Bootstrap:40 - WELD-000124: Using 4 threads for bootstrap
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%ApplicationContext
+2016-08-23 15:29:30 DEBUG Reflection:72 - WELD-000601: interface javax.inject.Singleton is missing @Target. Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%SingletonContext
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundSessionContext
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundConversationContext
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundRequestContext
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%RequestContext
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%DependentContext
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%EjbRequestContext
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: Extension [class org.jboss.weld.environment.se.WeldSEBeanRegistrant] with qualifiers [@Default]; jar:file:/C:/Users/rcpopescu/.m2/repository/org/jboss/weld/se/weld-se/2.2.9.Final/weld-se-2.2.9.Final.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@1
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 15:29:30 DEBUG Bootstrap:223 - WELD-000103: Enabled alternatives for Weld BeanManager for d4418185-f694-434d-9ca3-3fe2cbfbe161.jar [bean count=3]: (empty collection)
+2016-08-23 15:29:30 DEBUG Bootstrap:224 - WELD-000104: Enabled decorator types for Weld BeanManager for d4418185-f694-434d-9ca3-3fe2cbfbe161.jar [bean count=3]: (empty collection)
+2016-08-23 15:29:30 DEBUG Bootstrap:225 - WELD-000105: Enabled interceptor types for Weld BeanManager for d4418185-f694-434d-9ca3-3fe2cbfbe161.jar [bean count=3]: (empty collection)
+2016-08-23 15:29:30 DEBUG Bootstrap:108 - WELD-000108: Decorator: Decorator [class org.jboss.weld.environment.se.threading.RunnableDecorator] decorates [Runnable] with delegate type [Runnable] and delegate qualifiers [@Default]
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class dbr.JAXBContextProducer] with qualifiers [@Any @Default]
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%d4418185-f694-434d-9ca3-3fe2cbfbe161.jar%SingletonContext
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.Instance] with qualifiers [@Default]
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Decorator] with qualifiers [@Default]
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%d4418185-f694-434d-9ca3-3fe2cbfbe161.jar%BoundSessionContext
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class murex.test.rita.books.TestDependencyInjection] with qualifiers [@Any @Default]
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%d4418185-f694-434d-9ca3-3fe2cbfbe161.jar%ApplicationContext
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%d4418185-f694-434d-9ca3-3fe2cbfbe161.jar%RequestContext
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.InstanceManager] with qualifiers [@Any @Default]
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.WeldContainer] with qualifiers [@Any @Default]
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%d4418185-f694-434d-9ca3-3fe2cbfbe161.jar%DependentContext
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.event.Event] with qualifiers [@Default]
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%d4418185-f694-434d-9ca3-3fe2cbfbe161.jar%Conversation
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.EventMetadata] with qualifiers [@Default]
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [JAXBContext] with qualifiers [@Any @Default] declared as [[BackedAnnotatedMethod] @Produces public dbr.JAXBContextProducer.produceJAXBContext(InjectionPoint)]
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%d4418185-f694-434d-9ca3-3fe2cbfbe161.jar%BoundConversationContext
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [List<String>] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgs()]
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%d4418185-f694-434d-9ca3-3fe2cbfbe161.jar%EjbRequestContext
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.InjectionPoint] with qualifiers [@Default]
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%d4418185-f694-434d-9ca3-3fe2cbfbe161.jar%BoundRequestContext
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Default]
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Interceptor] with qualifiers [@Default]
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Decorated]
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.ParametersFactory] with qualifiers [@Any @Default]
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.transaction.UserTransaction] with qualifiers [@Default]
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Intercepted]
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [String[]] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgsAsArray()]
+2016-08-23 15:29:30 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [java.security.Principal] with qualifiers [@Default]
+2016-08-23 15:29:30 DEBUG Bootstrap:433 - WELD-000100: Weld initialized. Validating beans
+2016-08-23 15:29:30 DEBUG Reflection:82 - WELD-000620: interface javax.enterprise.inject.Decorated is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:29:30 DEBUG Reflection:82 - WELD-000620: interface javax.enterprise.inject.Intercepted is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:34:44 DEBUG logging:35 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-08-23 15:34:44 INFO  Version:152 - WELD-000900: 2.2.9 (Final)
+2016-08-23 15:34:44 DEBUG Bootstrap:40 - WELD-000124: Using 4 threads for bootstrap
+2016-08-23 15:34:44 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%ApplicationContext
+2016-08-23 15:34:44 DEBUG Reflection:72 - WELD-000601: interface javax.inject.Singleton is missing @Target. Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:34:44 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%SingletonContext
+2016-08-23 15:34:44 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundSessionContext
+2016-08-23 15:34:44 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundConversationContext
+2016-08-23 15:34:44 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundRequestContext
+2016-08-23 15:34:44 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%RequestContext
+2016-08-23 15:34:44 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%DependentContext
+2016-08-23 15:34:44 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%EjbRequestContext
+2016-08-23 15:34:44 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 15:34:44 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 15:34:44 DEBUG Bootstrap:507 - WELD-000106: Bean: Extension [class org.jboss.weld.environment.se.WeldSEBeanRegistrant] with qualifiers [@Default]; jar:file:/C:/Users/rcpopescu/.m2/repository/org/jboss/weld/se/weld-se/2.2.9.Final/weld-se-2.2.9.Final.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@1
+2016-08-23 15:34:44 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 15:34:44 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 15:34:45 DEBUG Bootstrap:223 - WELD-000103: Enabled alternatives for Weld BeanManager for 6e1f72fe-6c3a-41e7-9602-286861544e5e.jar [bean count=3]: (empty collection)
+2016-08-23 15:34:45 DEBUG Bootstrap:224 - WELD-000104: Enabled decorator types for Weld BeanManager for 6e1f72fe-6c3a-41e7-9602-286861544e5e.jar [bean count=3]: (empty collection)
+2016-08-23 15:34:45 DEBUG Bootstrap:225 - WELD-000105: Enabled interceptor types for Weld BeanManager for 6e1f72fe-6c3a-41e7-9602-286861544e5e.jar [bean count=3]: (empty collection)
+2016-08-23 15:34:45 DEBUG Bootstrap:108 - WELD-000108: Decorator: Decorator [class org.jboss.weld.environment.se.threading.RunnableDecorator] decorates [Runnable] with delegate type [Runnable] and delegate qualifiers [@Default]
+2016-08-23 15:34:45 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.InstanceManager] with qualifiers [@Any @Default]
+2016-08-23 15:34:45 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%6e1f72fe-6c3a-41e7-9602-286861544e5e.jar%ApplicationContext
+2016-08-23 15:34:45 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%6e1f72fe-6c3a-41e7-9602-286861544e5e.jar%BoundRequestContext
+2016-08-23 15:34:45 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.Instance] with qualifiers [@Default]
+2016-08-23 15:34:45 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%6e1f72fe-6c3a-41e7-9602-286861544e5e.jar%EjbRequestContext
+2016-08-23 15:34:45 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%6e1f72fe-6c3a-41e7-9602-286861544e5e.jar%SingletonContext
+2016-08-23 15:34:45 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Decorator] with qualifiers [@Default]
+2016-08-23 15:34:45 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.EventMetadata] with qualifiers [@Default]
+2016-08-23 15:34:45 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [String[]] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgsAsArray()]
+2016-08-23 15:34:45 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class dbr.JAXBContextProducer] with qualifiers [@Any @Default]
+2016-08-23 15:34:45 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Decorated]
+2016-08-23 15:34:45 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [java.security.Principal] with qualifiers [@Default]
+2016-08-23 15:34:45 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Interceptor] with qualifiers [@Default]
+2016-08-23 15:34:45 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.InjectionPoint] with qualifiers [@Default]
+2016-08-23 15:34:45 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%6e1f72fe-6c3a-41e7-9602-286861544e5e.jar%BoundSessionContext
+2016-08-23 15:34:45 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.ParametersFactory] with qualifiers [@Any @Default]
+2016-08-23 15:34:45 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.event.Event] with qualifiers [@Default]
+2016-08-23 15:34:45 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Default]
+2016-08-23 15:34:45 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.WeldContainer] with qualifiers [@Any @Default]
+2016-08-23 15:34:45 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [List<String>] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgs()]
+2016-08-23 15:34:45 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class murex.test.rita.books.TestDependencyInjection] with qualifiers [@Any @Default]
+2016-08-23 15:34:45 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%6e1f72fe-6c3a-41e7-9602-286861544e5e.jar%BoundConversationContext
+2016-08-23 15:34:45 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%6e1f72fe-6c3a-41e7-9602-286861544e5e.jar%RequestContext
+2016-08-23 15:34:45 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [JAXBContext] with qualifiers [@Any @Default] declared as [[BackedAnnotatedMethod] @Produces public dbr.JAXBContextProducer.produceJAXBContext(InjectionPoint)]
+2016-08-23 15:34:45 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%6e1f72fe-6c3a-41e7-9602-286861544e5e.jar%Conversation
+2016-08-23 15:34:45 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%6e1f72fe-6c3a-41e7-9602-286861544e5e.jar%DependentContext
+2016-08-23 15:34:45 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.transaction.UserTransaction] with qualifiers [@Default]
+2016-08-23 15:34:45 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Intercepted]
+2016-08-23 15:34:45 DEBUG Bootstrap:433 - WELD-000100: Weld initialized. Validating beans
+2016-08-23 15:34:45 DEBUG Reflection:82 - WELD-000620: interface javax.enterprise.inject.Decorated is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:34:45 DEBUG Reflection:82 - WELD-000620: interface javax.enterprise.inject.Intercepted is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:34:50 DEBUG logging:35 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-08-23 15:34:50 INFO  Version:152 - WELD-000900: 2.2.9 (Final)
+2016-08-23 15:34:50 DEBUG Bootstrap:40 - WELD-000124: Using 4 threads for bootstrap
+2016-08-23 15:34:50 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%ApplicationContext
+2016-08-23 15:34:50 DEBUG Reflection:72 - WELD-000601: interface javax.inject.Singleton is missing @Target. Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:34:50 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%SingletonContext
+2016-08-23 15:34:50 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundSessionContext
+2016-08-23 15:34:50 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundConversationContext
+2016-08-23 15:34:50 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundRequestContext
+2016-08-23 15:34:50 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%RequestContext
+2016-08-23 15:34:50 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%DependentContext
+2016-08-23 15:34:50 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%EjbRequestContext
+2016-08-23 15:34:50 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 15:34:50 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 15:34:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Extension [class org.jboss.weld.environment.se.WeldSEBeanRegistrant] with qualifiers [@Default]; jar:file:/C:/Users/rcpopescu/.m2/repository/org/jboss/weld/se/weld-se/2.2.9.Final/weld-se-2.2.9.Final.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@1
+2016-08-23 15:34:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 15:34:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 15:34:51 DEBUG Bootstrap:223 - WELD-000103: Enabled alternatives for Weld BeanManager for 581bf837-d5a3-41d8-a5e3-a62068e3c642.jar [bean count=3]: (empty collection)
+2016-08-23 15:34:51 DEBUG Bootstrap:224 - WELD-000104: Enabled decorator types for Weld BeanManager for 581bf837-d5a3-41d8-a5e3-a62068e3c642.jar [bean count=3]: (empty collection)
+2016-08-23 15:34:51 DEBUG Bootstrap:225 - WELD-000105: Enabled interceptor types for Weld BeanManager for 581bf837-d5a3-41d8-a5e3-a62068e3c642.jar [bean count=3]: (empty collection)
+2016-08-23 15:34:51 DEBUG Bootstrap:108 - WELD-000108: Decorator: Decorator [class org.jboss.weld.environment.se.threading.RunnableDecorator] decorates [Runnable] with delegate type [Runnable] and delegate qualifiers [@Default]
+2016-08-23 15:34:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Intercepted]
+2016-08-23 15:34:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.InjectionPoint] with qualifiers [@Default]
+2016-08-23 15:34:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.EventMetadata] with qualifiers [@Default]
+2016-08-23 15:34:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.WeldContainer] with qualifiers [@Any @Default]
+2016-08-23 15:34:51 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%581bf837-d5a3-41d8-a5e3-a62068e3c642.jar%BoundRequestContext
+2016-08-23 15:34:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.transaction.UserTransaction] with qualifiers [@Default]
+2016-08-23 15:34:51 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%581bf837-d5a3-41d8-a5e3-a62068e3c642.jar%EjbRequestContext
+2016-08-23 15:34:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [java.security.Principal] with qualifiers [@Default]
+2016-08-23 15:34:51 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%581bf837-d5a3-41d8-a5e3-a62068e3c642.jar%DependentContext
+2016-08-23 15:34:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Default]
+2016-08-23 15:34:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.InstanceManager] with qualifiers [@Any @Default]
+2016-08-23 15:34:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [JAXBContext] with qualifiers [@Any @Default] declared as [[BackedAnnotatedMethod] @Produces public dbr.JAXBContextProducer.produceJAXBContext(InjectionPoint)]
+2016-08-23 15:34:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Decorator] with qualifiers [@Default]
+2016-08-23 15:34:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.ParametersFactory] with qualifiers [@Any @Default]
+2016-08-23 15:34:51 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%581bf837-d5a3-41d8-a5e3-a62068e3c642.jar%BoundSessionContext
+2016-08-23 15:34:51 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%581bf837-d5a3-41d8-a5e3-a62068e3c642.jar%BoundConversationContext
+2016-08-23 15:34:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [List<String>] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgs()]
+2016-08-23 15:34:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Decorated]
+2016-08-23 15:34:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Interceptor] with qualifiers [@Default]
+2016-08-23 15:34:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [String[]] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgsAsArray()]
+2016-08-23 15:34:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.Instance] with qualifiers [@Default]
+2016-08-23 15:34:51 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%581bf837-d5a3-41d8-a5e3-a62068e3c642.jar%ApplicationContext
+2016-08-23 15:34:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class murex.test.rita.books.TestDependencyInjection] with qualifiers [@Any @Default]
+2016-08-23 15:34:51 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%581bf837-d5a3-41d8-a5e3-a62068e3c642.jar%SingletonContext
+2016-08-23 15:34:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.event.Event] with qualifiers [@Default]
+2016-08-23 15:34:51 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class dbr.JAXBContextProducer] with qualifiers [@Any @Default]
+2016-08-23 15:34:51 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%581bf837-d5a3-41d8-a5e3-a62068e3c642.jar%RequestContext
+2016-08-23 15:34:51 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%581bf837-d5a3-41d8-a5e3-a62068e3c642.jar%Conversation
+2016-08-23 15:34:51 DEBUG Bootstrap:433 - WELD-000100: Weld initialized. Validating beans
+2016-08-23 15:34:51 DEBUG Reflection:82 - WELD-000620: interface javax.enterprise.inject.Intercepted is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:34:51 DEBUG Reflection:82 - WELD-000620: interface javax.enterprise.inject.Decorated is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:41:45 DEBUG logging:35 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-08-23 15:41:45 INFO  Version:152 - WELD-000900: 2.2.9 (Final)
+2016-08-23 15:41:46 DEBUG Bootstrap:40 - WELD-000124: Using 4 threads for bootstrap
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%ApplicationContext
+2016-08-23 15:41:46 DEBUG Reflection:72 - WELD-000601: interface javax.inject.Singleton is missing @Target. Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%SingletonContext
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundSessionContext
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundConversationContext
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundRequestContext
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%RequestContext
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%DependentContext
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%EjbRequestContext
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: Extension [class org.jboss.weld.environment.se.WeldSEBeanRegistrant] with qualifiers [@Default]; jar:file:/C:/Users/rcpopescu/.m2/repository/org/jboss/weld/se/weld-se/2.2.9.Final/weld-se-2.2.9.Final.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@1
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 15:41:46 DEBUG Bootstrap:223 - WELD-000103: Enabled alternatives for Weld BeanManager for 87f7d49c-7a90-4ca8-95dd-368e68c9af79.jar [bean count=3]: (empty collection)
+2016-08-23 15:41:46 DEBUG Bootstrap:224 - WELD-000104: Enabled decorator types for Weld BeanManager for 87f7d49c-7a90-4ca8-95dd-368e68c9af79.jar [bean count=3]: (empty collection)
+2016-08-23 15:41:46 DEBUG Bootstrap:225 - WELD-000105: Enabled interceptor types for Weld BeanManager for 87f7d49c-7a90-4ca8-95dd-368e68c9af79.jar [bean count=3]: (empty collection)
+2016-08-23 15:41:46 DEBUG Bootstrap:108 - WELD-000108: Decorator: Decorator [class org.jboss.weld.environment.se.threading.RunnableDecorator] decorates [Runnable] with delegate type [Runnable] and delegate qualifiers [@Default]
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class murex.test.rita.books.TestDependencyInjection] with qualifiers [@Any @Default]
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%87f7d49c-7a90-4ca8-95dd-368e68c9af79.jar%BoundSessionContext
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Interceptor] with qualifiers [@Default]
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [JAXBContext] with qualifiers [@Any @Default] declared as [[BackedAnnotatedMethod] @Produces public dbr.JAXBContextProducer.produceJAXBContext(InjectionPoint)]
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%87f7d49c-7a90-4ca8-95dd-368e68c9af79.jar%Conversation
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%87f7d49c-7a90-4ca8-95dd-368e68c9af79.jar%RequestContext
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%87f7d49c-7a90-4ca8-95dd-368e68c9af79.jar%DependentContext
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%87f7d49c-7a90-4ca8-95dd-368e68c9af79.jar%SingletonContext
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [List<String>] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgs()]
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Intercepted]
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%87f7d49c-7a90-4ca8-95dd-368e68c9af79.jar%EjbRequestContext
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.WeldContainer] with qualifiers [@Any @Default]
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%87f7d49c-7a90-4ca8-95dd-368e68c9af79.jar%ApplicationContext
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.InjectionPoint] with qualifiers [@Default]
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.InstanceManager] with qualifiers [@Any @Default]
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.Instance] with qualifiers [@Default]
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [String[]] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgsAsArray()]
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.transaction.UserTransaction] with qualifiers [@Default]
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.event.Event] with qualifiers [@Default]
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class dbr.JAXBContextProducer] with qualifiers [@Any @Default]
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Default]
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Decorator] with qualifiers [@Default]
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%87f7d49c-7a90-4ca8-95dd-368e68c9af79.jar%BoundConversationContext
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [java.security.Principal] with qualifiers [@Default]
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Decorated]
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.EventMetadata] with qualifiers [@Default]
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%87f7d49c-7a90-4ca8-95dd-368e68c9af79.jar%BoundRequestContext
+2016-08-23 15:41:46 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.ParametersFactory] with qualifiers [@Any @Default]
+2016-08-23 15:41:46 DEBUG Bootstrap:433 - WELD-000100: Weld initialized. Validating beans
+2016-08-23 15:47:09 DEBUG logging:35 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-08-23 15:47:09 INFO  Version:152 - WELD-000900: 2.2.9 (Final)
+2016-08-23 15:47:09 DEBUG Bootstrap:40 - WELD-000124: Using 4 threads for bootstrap
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%ApplicationContext
+2016-08-23 15:47:10 DEBUG Reflection:72 - WELD-000601: interface javax.inject.Singleton is missing @Target. Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%SingletonContext
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundSessionContext
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundConversationContext
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundRequestContext
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%RequestContext
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%DependentContext
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%EjbRequestContext
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: Extension [class org.jboss.weld.environment.se.WeldSEBeanRegistrant] with qualifiers [@Default]; jar:file:/C:/Users/rcpopescu/.m2/repository/org/jboss/weld/se/weld-se/2.2.9.Final/weld-se-2.2.9.Final.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@1
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 15:47:10 DEBUG Bootstrap:223 - WELD-000103: Enabled alternatives for Weld BeanManager for 0949686d-8dcb-42ae-9016-ce0c238b6eea.jar [bean count=3]: (empty collection)
+2016-08-23 15:47:10 DEBUG Bootstrap:224 - WELD-000104: Enabled decorator types for Weld BeanManager for 0949686d-8dcb-42ae-9016-ce0c238b6eea.jar [bean count=3]: (empty collection)
+2016-08-23 15:47:10 DEBUG Bootstrap:225 - WELD-000105: Enabled interceptor types for Weld BeanManager for 0949686d-8dcb-42ae-9016-ce0c238b6eea.jar [bean count=3]: (empty collection)
+2016-08-23 15:47:10 DEBUG Bootstrap:108 - WELD-000108: Decorator: Decorator [class org.jboss.weld.environment.se.threading.RunnableDecorator] decorates [Runnable] with delegate type [Runnable] and delegate qualifiers [@Default]
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%0949686d-8dcb-42ae-9016-ce0c238b6eea.jar%ApplicationContext
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Decorated]
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%0949686d-8dcb-42ae-9016-ce0c238b6eea.jar%BoundConversationContext
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class dbr.JAXBContextProducer] with qualifiers [@Any @Default]
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.EventMetadata] with qualifiers [@Default]
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.ParametersFactory] with qualifiers [@Any @Default]
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Interceptor] with qualifiers [@Default]
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.InstanceManager] with qualifiers [@Any @Default]
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%0949686d-8dcb-42ae-9016-ce0c238b6eea.jar%DependentContext
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%0949686d-8dcb-42ae-9016-ce0c238b6eea.jar%RequestContext
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%0949686d-8dcb-42ae-9016-ce0c238b6eea.jar%SingletonContext
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%0949686d-8dcb-42ae-9016-ce0c238b6eea.jar%Conversation
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.event.Event] with qualifiers [@Default]
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Decorator] with qualifiers [@Default]
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [String[]] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgsAsArray()]
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.Instance] with qualifiers [@Default]
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.transaction.UserTransaction] with qualifiers [@Default]
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [List<String>] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgs()]
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Intercepted]
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.WeldContainer] with qualifiers [@Any @Default]
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [java.security.Principal] with qualifiers [@Default]
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%0949686d-8dcb-42ae-9016-ce0c238b6eea.jar%BoundSessionContext
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class murex.test.rita.books.TestDependencyInjection] with qualifiers [@Any @Default]
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%0949686d-8dcb-42ae-9016-ce0c238b6eea.jar%BoundRequestContext
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Default]
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [JAXBContext] with qualifiers [@Any @Default] declared as [[BackedAnnotatedMethod] @Produces public dbr.JAXBContextProducer.produceJAXBContext(InjectionPoint)]
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%0949686d-8dcb-42ae-9016-ce0c238b6eea.jar%EjbRequestContext
+2016-08-23 15:47:10 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.InjectionPoint] with qualifiers [@Default]
+2016-08-23 15:47:10 DEBUG Bootstrap:433 - WELD-000100: Weld initialized. Validating beans
+2016-08-23 15:48:30 DEBUG logging:35 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-08-23 15:48:30 INFO  Version:152 - WELD-000900: 2.2.9 (Final)
+2016-08-23 15:48:31 DEBUG Bootstrap:40 - WELD-000124: Using 4 threads for bootstrap
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%ApplicationContext
+2016-08-23 15:48:31 DEBUG Reflection:72 - WELD-000601: interface javax.inject.Singleton is missing @Target. Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%SingletonContext
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundSessionContext
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundConversationContext
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundRequestContext
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%RequestContext
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%DependentContext
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%EjbRequestContext
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: Extension [class org.jboss.weld.environment.se.WeldSEBeanRegistrant] with qualifiers [@Default]; jar:file:/C:/Users/rcpopescu/.m2/repository/org/jboss/weld/se/weld-se/2.2.9.Final/weld-se-2.2.9.Final.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@1
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 15:48:31 DEBUG Bootstrap:223 - WELD-000103: Enabled alternatives for Weld BeanManager for fa264a82-f21a-4a22-b76d-5f2177d2f1d8.jar [bean count=3]: (empty collection)
+2016-08-23 15:48:31 DEBUG Bootstrap:224 - WELD-000104: Enabled decorator types for Weld BeanManager for fa264a82-f21a-4a22-b76d-5f2177d2f1d8.jar [bean count=3]: (empty collection)
+2016-08-23 15:48:31 DEBUG Bootstrap:225 - WELD-000105: Enabled interceptor types for Weld BeanManager for fa264a82-f21a-4a22-b76d-5f2177d2f1d8.jar [bean count=3]: (empty collection)
+2016-08-23 15:48:31 DEBUG Bootstrap:108 - WELD-000108: Decorator: Decorator [class org.jboss.weld.environment.se.threading.RunnableDecorator] decorates [Runnable] with delegate type [Runnable] and delegate qualifiers [@Default]
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.Instance] with qualifiers [@Default]
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class dbr.MarshallerProducer] with qualifiers [@Any @Default]
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class dbr.JAXBContextProducer] with qualifiers [@Any @Default]
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Interceptor] with qualifiers [@Default]
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%fa264a82-f21a-4a22-b76d-5f2177d2f1d8.jar%SingletonContext
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [java.security.Principal] with qualifiers [@Default]
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [JAXBContext] with qualifiers [@Any @Default] declared as [[BackedAnnotatedMethod] @Produces public dbr.JAXBContextProducer.produceJAXBContext(InjectionPoint)]
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [List<String>] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgs()]
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Default]
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%fa264a82-f21a-4a22-b76d-5f2177d2f1d8.jar%DependentContext
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%fa264a82-f21a-4a22-b76d-5f2177d2f1d8.jar%RequestContext
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%fa264a82-f21a-4a22-b76d-5f2177d2f1d8.jar%BoundConversationContext
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.WeldContainer] with qualifiers [@Any @Default]
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%fa264a82-f21a-4a22-b76d-5f2177d2f1d8.jar%EjbRequestContext
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.event.Event] with qualifiers [@Default]
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Decorator] with qualifiers [@Default]
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class murex.test.rita.books.TestDependencyInjection] with qualifiers [@Any @Default]
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%fa264a82-f21a-4a22-b76d-5f2177d2f1d8.jar%BoundSessionContext
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.InstanceManager] with qualifiers [@Any @Default]
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%fa264a82-f21a-4a22-b76d-5f2177d2f1d8.jar%ApplicationContext
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.ParametersFactory] with qualifiers [@Any @Default]
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [Marshaller] with qualifiers [@Any @Default] declared as [[BackedAnnotatedMethod] @Produces public dbr.MarshallerProducer.produceMarshaller(InjectionPoint)]
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.InjectionPoint] with qualifiers [@Default]
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.transaction.UserTransaction] with qualifiers [@Default]
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [String[]] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgsAsArray()]
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Intercepted]
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%fa264a82-f21a-4a22-b76d-5f2177d2f1d8.jar%BoundRequestContext
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.EventMetadata] with qualifiers [@Default]
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Decorated]
+2016-08-23 15:48:31 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%fa264a82-f21a-4a22-b76d-5f2177d2f1d8.jar%Conversation
+2016-08-23 15:48:31 DEBUG Bootstrap:433 - WELD-000100: Weld initialized. Validating beans
+2016-08-23 15:48:31 DEBUG Reflection:82 - WELD-000620: interface javax.enterprise.inject.Intercepted is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:48:31 DEBUG Reflection:82 - WELD-000620: interface javax.enterprise.inject.Decorated is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:49:25 DEBUG logging:35 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2016-08-23 15:49:25 INFO  Version:152 - WELD-000900: 2.2.9 (Final)
+2016-08-23 15:49:25 DEBUG Bootstrap:40 - WELD-000124: Using 4 threads for bootstrap
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%ApplicationContext
+2016-08-23 15:49:25 DEBUG Reflection:72 - WELD-000601: interface javax.inject.Singleton is missing @Target. Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%SingletonContext
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundSessionContext
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundConversationContext
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%BoundRequestContext
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%RequestContext
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%DependentContext
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%deployment%EjbRequestContext
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Extension [class org.jboss.weld.environment.se.WeldSEBeanRegistrant] with qualifiers [@Default]; jar:file:/C:/Users/rcpopescu/.m2/repository/org/jboss/weld/se/weld-se/2.2.9.Final/weld-se-2.2.9.Final.jar!/META-INF/services/javax.enterprise.inject.spi.Extension@1
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.enterprise.inject.spi.BeanManager] with qualifiers [@Default]
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [org.jboss.weld.manager.BeanManagerImpl] with qualifiers [@Default]
+2016-08-23 15:49:25 DEBUG Bootstrap:223 - WELD-000103: Enabled alternatives for Weld BeanManager for 021bcc59-f2bf-4079-bc5e-69f7ff96f8f4.jar [bean count=3]: (empty collection)
+2016-08-23 15:49:25 DEBUG Bootstrap:224 - WELD-000104: Enabled decorator types for Weld BeanManager for 021bcc59-f2bf-4079-bc5e-69f7ff96f8f4.jar [bean count=3]: (empty collection)
+2016-08-23 15:49:25 DEBUG Bootstrap:225 - WELD-000105: Enabled interceptor types for Weld BeanManager for 021bcc59-f2bf-4079-bc5e-69f7ff96f8f4.jar [bean count=3]: (empty collection)
+2016-08-23 15:49:25 DEBUG Bootstrap:108 - WELD-000108: Decorator: Decorator [class org.jboss.weld.environment.se.threading.RunnableDecorator] decorates [Runnable] with delegate type [Runnable] and delegate qualifiers [@Default]
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.ParametersFactory] with qualifiers [@Any @Default]
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [JAXBContext] with qualifiers [@Any @Default] declared as [[BackedAnnotatedMethod] @Produces public dbr.JAXBContextProducer.produceJAXBContext(InjectionPoint)]
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [List<String>] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgs()]
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.WeldContainer] with qualifiers [@Any @Default]
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.event.Event] with qualifiers [@Default]
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%021bcc59-f2bf-4079-bc5e-69f7ff96f8f4.jar%BoundSessionContext
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Default]
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Decorated]
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%021bcc59-f2bf-4079-bc5e-69f7ff96f8f4.jar%RequestContext
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [Marshaller] with qualifiers [@Any @Default] declared as [[BackedAnnotatedMethod] @Produces public dbr.MarshallerProducer.produceMarshaller(InjectionPoint)]
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.EventMetadata] with qualifiers [@Default]
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%021bcc59-f2bf-4079-bc5e-69f7ff96f8f4.jar%ApplicationContext
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [javax.transaction.UserTransaction] with qualifiers [@Default]
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%021bcc59-f2bf-4079-bc5e-69f7ff96f8f4.jar%BoundConversationContext
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class dbr.JAXBContextProducer] with qualifiers [@Any @Default]
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.Instance] with qualifiers [@Default]
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%021bcc59-f2bf-4079-bc5e-69f7ff96f8f4.jar%BoundRequestContext
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Interceptor] with qualifiers [@Default]
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.InjectionPoint] with qualifiers [@Default]
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%021bcc59-f2bf-4079-bc5e-69f7ff96f8f4.jar%Conversation
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class murex.test.rita.books.TestDependencyInjection] with qualifiers [@Any @Default]
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Built-in Bean [java.security.Principal] with qualifiers [@Default]
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%021bcc59-f2bf-4079-bc5e-69f7ff96f8f4.jar%DependentContext
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class org.jboss.weld.environment.se.beans.InstanceManager] with qualifiers [@Any @Default]
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%021bcc59-f2bf-4079-bc5e-69f7ff96f8f4.jar%SingletonContext
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Decorator] with qualifiers [@Default]
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: WELD%AbstractSyntheticBean%021bcc59-f2bf-4079-bc5e-69f7ff96f8f4.jar%EjbRequestContext
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Managed Bean [class dbr.MarshallerProducer] with qualifiers [@Any @Default]
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Producer Method [String[]] with qualifiers [@Parameters @Any] declared as [[UnbackedAnnotatedMethod] @Produces @Parameters public org.jboss.weld.environment.se.beans.ParametersFactory.getArgsAsArray()]
+2016-08-23 15:49:25 DEBUG Bootstrap:507 - WELD-000106: Bean: Implicit Bean [javax.enterprise.inject.spi.Bean] with qualifiers [@Intercepted]
+2016-08-23 15:49:25 DEBUG Bootstrap:433 - WELD-000100: Weld initialized. Validating beans
+2016-08-23 15:49:25 DEBUG Reflection:82 - WELD-000620: interface javax.enterprise.inject.Decorated is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.
+2016-08-23 15:49:25 DEBUG Reflection:82 - WELD-000620: interface javax.enterprise.inject.Intercepted is not declared @Target(METHOD, FIELD, PARAMETER, TYPE). Weld will use this annotation, however this may make the application unportable.

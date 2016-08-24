@@ -41,6 +41,7 @@ public class DiskBookRepo implements Iterable<Book> {
         private Unmarshaller unmarshaller;
 
         public BOOKIterator(File rootDir) throws JAXBException{
+
             files = rootDir.listFiles();
             c = JAXBContext.newInstance(BOOK.class);
             unmarshaller = c.createUnmarshaller();
