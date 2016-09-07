@@ -49,6 +49,15 @@ public class Library {
         }
         return null;
     }
+
+    public String getTitleBookByISBN(String isbn) {
+        for (Book book : booksRepo) {
+            if (book.getIsbn().equals(isbn)) {
+                return book.getTitle();
+            }
+        }
+        return null;
+    }
 }
 
 

@@ -26,15 +26,7 @@ public class LibraryTest {
     private JAXBContext context;
 
 
-    @Test
-    public void x() throws JAXBException {
-        Marshaller marshaller = context.createMarshaller();
-        BOOK b = new BOOK();
-        b.setTITLE("Jurnalul pantofului rosu.");
-        StringWriter s = new StringWriter(hashCode());
-        marshaller.marshal(b, s);
-        System.out.println(s);
-    }
+
 
     Library library;
     //private File rootDir = new File("C:\\Users\\rcpopescu\\IdeaProjects\\Books\\booksxml");
@@ -89,5 +81,7 @@ public class LibraryTest {
         Assert.assertEquals(expectedBook, library.getBookByISBN("123"));
         Assert.assertEquals(expectedBook, library.getBookByISBN("123"));
     }
+
+
 
 }
