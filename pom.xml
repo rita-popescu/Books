@@ -13,6 +13,8 @@
         <slf4jVersion>1.6.1</slf4jVersion>
     </properties>
 
+
+
     <repositories>
         <repository>
             <id>sonatype-snapshots</id>
@@ -43,7 +45,7 @@
         <dependency>
             <groupId>org.apache.camel</groupId>
             <artifactId>camel-core</artifactId>
-            <version>2.17.2</version>
+            <version>2.17.3</version>
         </dependency>
 
         <dependency>
@@ -54,10 +56,10 @@
 
         <dependency>
             <groupId>junit</groupId>
-                <artifactId>junit</artifactId>
-                <version>4.12</version>
-                <scope>test</scope>
-            </dependency>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
 
         <dependency>
             <groupId>info.cukes</groupId>
@@ -71,6 +73,7 @@
             <version>1.2.4</version>
         </dependency>
 
+        <!-- CDI DEPENDENCY -->
         <dependency>
             <groupId>org.jboss.weld</groupId>
             <artifactId>weld-core</artifactId>
@@ -85,8 +88,10 @@
         <dependency>
             <groupId>org.jboss.arquillian.junit</groupId>
             <artifactId>arquillian-junit-container</artifactId>
+            <version>1.1.11.Final</version>
             <scope>test</scope>
         </dependency>
+
         <dependency>
             <groupId>org.jboss.arquillian.container</groupId>
             <artifactId>arquillian-weld-ee-embedded-1.1</artifactId>
@@ -122,7 +127,44 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- Apache books -->
+        <dependency>
+            <groupId>org.apache.camel</groupId>
+            <artifactId>camel-core</artifactId>
+            <version>2.17.3</version>
+        </dependency>
 
+        <dependency>
+            <groupId>org.apache.camel</groupId>
+            <artifactId>camel-jaxb</artifactId>
+            <version>2.17.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.camel</groupId>
+            <artifactId>camel-component</artifactId>
+            <version>1.4.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.camel</groupId>
+            <artifactId>camel-context</artifactId>
+            <version>2.17.3</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.jboss.shrinkwrap.descriptors</groupId>
+            <artifactId>shrinkwrap-descriptors-api-javaee</artifactId>
+            <version>2.0.0-alpha-7</version>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.camel</groupId>
+            <artifactId>camel-cdi</artifactId>
+            <version>RELEASE</version>
+            <scope>test</scope>
+        </dependency>
 
 
 
@@ -163,105 +205,105 @@
 
         </dependency>
 
-        <dependency>
-            <groupId>org.apache.camel</groupId>
-            <artifactId>camel-jaxb</artifactId>
-            <version>2.17.1</version>
-        </dependency>
+
+
 
     </dependencies>
 
 
+
     <build>
-    <plugins>
+        <plugins>
 
-        <plugin>
-            <groupId>org.codehaus.mojo</groupId>
-            <artifactId>build-helper-maven-plugin</artifactId>
-            <version>1.4</version>
-            <executions>
-                <execution>
-                    <id>test</id>
-                    <phase>generate-sources</phase>
-                    <goals>
-                        <goal>add-source</goal>
-                    </goals>
-                    <configuration>
-                        <sources>
-                            <source>${basedir}/target/generated-sources</source>
-                        </sources>
-                    </configuration>
-                </execution>
-            </executions>
-        </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>build-helper-maven-plugin</artifactId>
+                <version>1.4</version>
+                <executions>
+                    <execution>
+                        <id>test</id>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>add-source</goal>
+                        </goals>
+                        <configuration>
+                            <sources>
+                                <source>${basedir}/target/generated-sources</source>
+                            </sources>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
 
-        <plugin>
-            <groupId>org.codehaus.mojo</groupId>
-            <artifactId>jaxb2-maven-plugin</artifactId>
-            <version>1.6</version>
-            <dependencies>
-                <dependency>
-                    <groupId>org.jvnet.jaxb2_commons</groupId>
-                    <artifactId>jaxb2-basics</artifactId>
-                    <version>0.6.4</version>
-                </dependency>
-                <dependency>
-                    <groupId>org.jvnet.jaxb2_commons</groupId>
-                    <artifactId>jaxb2-namespace-prefix</artifactId>
-                    <version>1.1</version>
-                </dependency>
-                <dependency>
-                    <groupId>org.jvnet.jaxb2_commons</groupId>
-                    <artifactId>jaxb2-fluent-api</artifactId>
-                    <version>3.0</version>
-                </dependency>
-            </dependencies>
-            <executions>
-                <execution>
-                    <id>BookGeneration</id>
-                    <phase>generate-sources</phase>
-                    <goals>
-                        <goal>xjc</goal>
-                    </goals>
-                    <configuration>
-                        <packageName>murex.test.rita.books.model</packageName>
-                        <schemaDirectory>${basedir}/src/main/resources/xsd</schemaDirectory>
-                        <clearOutputDir>false</clearOutputDir>
-                        <arguments>-Xnamespace-prefix</arguments>
-                    </configuration>
-                </execution>
-            </executions>
-        </plugin>
-
-
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>jaxb2-maven-plugin</artifactId>
+                <version>1.6</version>
+                <dependencies>
+                    <dependency>
+                        <groupId>org.jvnet.jaxb2_commons</groupId>
+                        <artifactId>jaxb2-basics</artifactId>
+                        <version>0.6.4</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.jvnet.jaxb2_commons</groupId>
+                        <artifactId>jaxb2-namespace-prefix</artifactId>
+                        <version>1.1</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.jvnet.jaxb2_commons</groupId>
+                        <artifactId>jaxb2-fluent-api</artifactId>
+                        <version>3.0</version>
+                    </dependency>
+                </dependencies>
+                <executions>
+                    <execution>
+                        <id>BookGeneration</id>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>xjc</goal>
+                        </goals>
+                        <configuration>
+                            <packageName>murex.test.rita.books.model</packageName>
+                            <schemaDirectory>${basedir}/src/main/resources/xsd</schemaDirectory>
+                            <clearOutputDir>false</clearOutputDir>
+                            <arguments>-Xnamespace-prefix</arguments>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
 
 
 
 
-        <plugin>
-            <artifactId>maven-surefire-plugin</artifactId>
-            <version>2.17</version>
-        </plugin>
-
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.2</version>
-            <configuration>
-                <source>1.6</source>
-                <target>1.6</target>
-            </configuration>
-        </plugin>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-surefire-plugin</artifactId>
-            <configuration>
-                <argLine>-Xmx256m -XX:MaxPermSize=256m</argLine>
-            </configuration>
-        </plugin>
 
 
+            <plugin>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.17</version>
+            </plugin>
 
-    </plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.2</version>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <argLine>-Xmx256m -XX:MaxPermSize=256m</argLine>
+                </configuration>
+            </plugin>
+
+
+
+        </plugins>
     </build>
 </project>
+
+
