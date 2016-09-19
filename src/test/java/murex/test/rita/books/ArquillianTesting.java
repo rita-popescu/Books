@@ -27,6 +27,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+import static org.junit.Assert.*;
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 
@@ -37,12 +38,18 @@ import static org.junit.Assert.assertEquals;
 public class ArquillianTesting {
 
     ArrayList<Book> expectedBooksRepo = new ArrayList<Book>();
+    ArrayList<Book> expectedBooksRepo2 = new ArrayList<Book>();
 
     private static final Logger logger = LoggerFactory.getLogger(MyRouteBuilderforArquillian.class);
 
     @Inject
     @Uri("direct:bookListAggregated")
     ProducerTemplate mainIn;
+
+
+    @Inject
+    @Uri("direct:secondBookListAggregated")
+    ProducerTemplate secondMainIn;
 
     @Inject
     @Uri("mock:ruta3")
@@ -51,6 +58,10 @@ public class ArquillianTesting {
     @Inject
     @Uri("mock:ruta4")
     private MockEndpoint secondMockBookListAggregated;
+
+    @Inject
+    @Uri("mock:ruta5")
+    private MockEndpoint thirdMockBookListAggregated;
 
     @Inject
     private CamelContext camelcontext;
@@ -80,6 +91,14 @@ public class ArquillianTesting {
 
                 replaceFromWith(mainIn.getDefaultEndpoint());
                 weaveById("secondMockBookListAggregatedId").before().to(secondMockBookListAggregated);
+            }
+        });
+        camelcontext.getRouteDefinition("ruta5").adviceWith((ModelCamelContext)camelcontext, new AdviceWithRouteBuilder() {
+            @Override
+            public void configure() throws Exception {
+
+                replaceFromWith(secondMainIn.getDefaultEndpoint());
+                weaveById("thirdMockBookListAggregatedId").before().to(thirdMockBookListAggregated);
             }
         });
     }
@@ -113,6 +132,38 @@ public class ArquillianTesting {
         camelcontext.stop();
     }
 
+    /*
+    @Test
+    public void verifyReceivedMessage1()throws InterruptedException{
+
+        Book b1 = new Book(Collections.asList("Robert C. Martin"), "agile software development4", "123456", "Tutorial");
+        Book b2 = new Book(Collections.asList("Joshua Bloch"), "Effective Java2", "12345678", "Tutorial");
+        Book b3 = new Book(Collections.asList("Joshua Bloch"), "Effective Java3", "123456789", "Tutorial");
+        Book b4 = new Book(Collections.asList("Kathy Sierra","Bert Bates"), "Head First Java1", "1234567891", "Tutorial");
+        expectedBooksRepo.add(b1);
+        expectedBooksRepo.add(b2);
+        expectedBooksRepo.add(b3);
+        expectedBooksRepo.add(b4);
+
+
+        mainIn.sendBody(expectedBooksRepo);
+
+
+        secondMockBookListAggregated.setExpectedCount(1);
+        secondMockBookListAggregated.assertIsSatisfied(20*1000L);
+        List<Book> actualExchange = secondMockBookListAggregated.getExchanges().get(0).getIn().getBody(List.class);
+
+        Book [] actualExchangeArray = actualExchange.toArray(new Book[actualExchange.size()]);
+
+        Book [] expectedExchangeArray = expectedBooksRepo.toArray(new Book[expectedBooksRepo.size()]);
+
+        assertEquals(true, camelcontext.getStatus().isStarted());
+        org.junit.Assert.assertArrayEquals(actualExchangeArray, expectedExchangeArray);
+
+
+
+    }
+*/
 
     @Test
     public void verifyReceivedMessage2()throws InterruptedException{
@@ -137,8 +188,41 @@ public class ArquillianTesting {
 
         assertEquals(true, camelcontext.getStatus().isStarted());
 
-        org.junit.Assert.assertEquals(expectedBooksRepo, actualExchange);
+        assertEquals(expectedBooksRepo, actualExchange);
 
     }
+
+
+    @Test
+    public void verifyReceivedMessage3()throws InterruptedException{
+
+        Book b1 = new Book(Collections.asList("Robert C. Martin"), "agile software development4", "123456", "Tutorial");
+        Book b2 = new Book(Collections.asList("Joshua Bloch"), "Effective Java2", "12345678", "Tutorial");
+        Book b3 = new Book(Collections.asList("Joshua Bloch"), "Effective Java3", "123456789", "Tutorial");
+        Book b4 = new Book(Collections.asList("Kathy Sierra","Bert Bates"), "Head First Java1", "1234567891", "Tutorial");
+        expectedBooksRepo2.add(b1);
+        expectedBooksRepo2.add(b2);
+        expectedBooksRepo2.add(b3);
+        expectedBooksRepo2.add(b4);
+
+
+        secondMainIn.sendBody(expectedBooksRepo2);
+
+
+        thirdMockBookListAggregated.setExpectedCount(2);
+        thirdMockBookListAggregated.assertIsSatisfied(20*1000L);
+        List<Book> actualExchange = thirdMockBookListAggregated.getExchanges().get(0).getIn().getBody(List.class);
+
+
+        Book [] actualExchangeArray = actualExchange.toArray(new Book[actualExchange.size()]);
+
+        Book [] expectedExchangeArray = expectedBooksRepo2.toArray(new Book[expectedBooksRepo2.size()]);
+
+        assertEquals(true, camelcontext.getStatus().isStarted());
+
+        assertArrayEquals(actualExchangeArray, expectedExchangeArray);
+
+    }
+
 
 }

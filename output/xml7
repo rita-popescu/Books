@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BOOK>
+    <AUTHORS>
+        <AUTHOR>Joshua Bloch</AUTHOR>
+    </AUTHORS>
+    <TITLE>Effective Java3</TITLE>
+    <ISBN>123456789</ISBN>
+    <CATEGORY>Tutorial</CATEGORY>
+    <PRICE>2311</PRICE>
+</BOOK>

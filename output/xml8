@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BOOK>
+    <AUTHORS>
+        <AUTHOR>Kathy Sierra</AUTHOR>
+        <AUTHOR>Bert Bates</AUTHOR>
+    </AUTHORS>
+    <TITLE>Head First Java1</TITLE>
+    <ISBN>1234567891</ISBN>
+    <CATEGORY>Tutorial</CATEGORY>
+    <PRICE>2312</PRICE>
+</BOOK>

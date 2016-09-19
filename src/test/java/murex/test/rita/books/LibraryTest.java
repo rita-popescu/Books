@@ -21,12 +21,6 @@ import java.util.List;
  */
 public class LibraryTest {
 
-    @Inject
-    @ClassBinding(value = BOOK.class)
-    private JAXBContext context;
-
-
-
 
     Library library;
     //private File rootDir = new File("C:\\Users\\rcpopescu\\IdeaProjects\\Books\\booksxml");

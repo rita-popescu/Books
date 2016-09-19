@@ -69,6 +69,17 @@ public class MyRouteBuilderforArquillian extends RouteBuilder{
                 .to("book://secondBookListAggregated")
 
         ;
+        from("book://secondBookListAggregated").routeId("ruta5")
+                .split().body()
+                .log(LoggingLevel.INFO, "***************** Body after split: ${body}")
+                .to("book://SecondBookListAfterSplit")
+                .aggregate(simple("${body.category}"))
+                .aggregationStrategy(new SetAggregationStrategy())
+                .completionTimeout(100 * 1000L)
+                .completionSize(4)
+                .log(LoggingLevel.INFO, "***************** Body after second aggregate: ${body}")
+                .id("thirdMockBookListAggregatedId")
+                .to("book://thirdBookListAggregated");
 
 
     }

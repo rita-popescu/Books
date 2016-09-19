@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BOOK>
+    <AUTHORS>
+        <AUTHOR>Robert C. Martin</AUTHOR>
+    </AUTHORS>
+    <TITLE>agile software development2</TITLE>
+    <ISBN>1234</ISBN>
+    <CATEGORY>Self-Help</CATEGORY>
+    <PRICE>235</PRICE>
+</BOOK>
